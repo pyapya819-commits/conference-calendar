@@ -1,7 +1,17 @@
 {
   "last_updated": "2026-06-26",
-  "total": 89,
+  "total": 97,
   "conferences": [
+    {
+      "name": "2026 Winter School",
+      "start": "2026-01-03",
+      "end": "2026-01-04",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
+    },
     {
       "name": "대한심장학회 2026년 신년하례식",
       "start": "2026-01-06",
@@ -353,6 +363,26 @@
       "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=5&category="
     },
     {
+      "name": "2026년 제64회 춘계학술대회",
+      "start": "2026-05-22",
+      "end": "2026-05-23",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
+    },
+    {
+      "name": "2026 ESH (35th European Meeting on Hypertension andCardiovascular Protection)",
+      "start": "2026-05-28",
+      "end": "2026-05-31",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
+    },
+    {
       "name": "APCMS 2026",
       "start": "2026-05-29",
       "end": "2026-05-30",
@@ -491,6 +521,16 @@
       "type": "domestic",
       "source": "대한마취통증의학회",
       "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "제90회 대전 개원의 및 전공의 연수강좌",
+      "start": "2026-07-10",
+      "end": "2026-07-10",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
     },
     {
       "name": "[대한통증학회] Cadaver Workshop 3차",
@@ -693,6 +733,16 @@
       "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=9&category="
     },
     {
+      "name": "2026 JSH (The 48th Annual Scientific Meeting of the Japanese Society of Hypertension)",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
+    },
+    {
       "name": "[대한통증학회] 도수치료 연수강좌",
       "start": "2026-10-11",
       "end": "2026-10-11",
@@ -733,6 +783,16 @@
       "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=10&category="
     },
     {
+      "name": "2026 ISH (31st International Society of Hypertension Scientific Meeting and the 17th Emirates Cardiac Society Annual Conference (ISH-ECS 2026))",
+      "start": "2026-10-22",
+      "end": "2026-10-25",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
+    },
+    {
       "name": "[대한소아마취학회] 2026년 제10회 대한소아마취학회 Simulation & Hands-on Workshop",
       "start": "2026-10-24",
       "end": "2026-10-24",
@@ -761,6 +821,16 @@
       "type": "domestic",
       "source": "대한마취통증의학회",
       "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=11"
+    },
+    {
+      "name": "2026년 Hypertension Seoul, 제65회 추계학술대회",
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
     },
     {
       "name": "[대한마취통증의학회] KoreAnesthesia 2026(제103차 종합학술대회)",
@@ -891,6 +961,16 @@
       "type": "domestic",
       "source": "대한심장학회",
       "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=12&category="
+    },
+    {
+      "name": "서울 개원의 및 전공의 연수강좌",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/symposium/symposium?year=2026"
     }
   ]
 }
