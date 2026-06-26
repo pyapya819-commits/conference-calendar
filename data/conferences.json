@@ -1,21 +1,586 @@
 {
   "last_updated": "2026-06-26",
-  "total": 15,
+  "total": 58,
   "conferences": [
-    { "name":"대한고혈압학회 제64회 춘계학술대회", "start":"2026-05-22", "end":"2026-05-23", "location":"광주 김대중컨벤션센터", "category":"cv", "type":"domestic", "source":"대한고혈압학회", "url":"https://www.koreanhypertension.org" },
-    { "name":"ESH 2026 (유럽고혈압학회)", "start":"2026-05-28", "end":"2026-05-31", "location":"유럽", "category":"cv", "type":"intl", "source":"대한고혈압학회", "url":"https://eshannualmeetings.eu" },
-    { "name":"ISH 2026 (국제고혈압학회)", "start":"2026-10-22", "end":"2026-10-25", "location":"두바이", "category":"cv", "type":"intl", "source":"대한고혈압학회", "url":"https://ishecs26.org" },
-    { "name":"JSH 2026 (일본고혈압학회)", "start":"2026-10-10", "end":"2026-10-12", "location":"일본", "category":"cv", "type":"intl", "source":"대한고혈압학회", "url":"https://www.congre.co.jp/48jsh2026" },
-    { "name":"대한고혈압학회 제65회 추계학술대회", "start":"2026-11-05", "end":"2026-11-07", "location":"서울", "category":"cv", "type":"domestic", "source":"대한고혈압학회", "url":"https://www.koreanhypertension.org" },
-    { "name":"대한통증학회 춘계학술대회", "start":"2026-04-25", "end":"2026-04-26", "location":"서울", "category":"pain", "type":"domestic", "source":"대한통증학회", "url":"https://www.painfree.or.kr" },
-    { "name":"대한마취통증의학회 학술대회", "start":"2026-10-08", "end":"2026-10-10", "location":"서울", "category":"pain", "type":"domestic", "source":"대한마취통증의학회", "url":"https://www.anesthesia.or.kr" },
-    { "name":"대한당뇨병학회 제39차 춘계학술대회", "start":"2026-04-30", "end":"2026-05-02", "location":"광주 김대중컨벤션센터", "category":"endo", "type":"domestic", "source":"대한당뇨병학회", "url":"https://www.diabetes.or.kr" },
-    { "name":"SICEM 2026 (대한내분비학회)", "start":"2026-04-09", "end":"2026-04-11", "location":"그랜드 하얏트 인천", "category":"endo", "type":"domestic", "source":"대한내분비학회", "url":"https://endocrinology.or.kr" },
-    { "name":"대한신경과학회 춘계학술대회", "start":"2026-05-14", "end":"2026-05-16", "location":"서울", "category":"pain", "type":"domestic", "source":"대한신경과학회", "url":"https://renew.neuro.or.kr" },
-    { "name":"대한신장학회 KSN 2026", "start":"2026-06-18", "end":"2026-06-21", "location":"서울 코엑스", "category":"endo", "type":"domestic", "source":"대한신장학회", "url":"https://www.ksn.or.kr" },
-    { "name":"대한재활의학회 춘계학술대회", "start":"2026-04-17", "end":"2026-04-18", "location":"서울", "category":"pain", "type":"domestic", "source":"대한재활의학회", "url":"https://www.karm.or.kr" },
-    { "name":"대한정형외과학회 춘계학술대회", "start":"2026-05-28", "end":"2026-05-30", "location":"서울", "category":"pain", "type":"domestic", "source":"대한정형외과학회", "url":"https://www.koa.or.kr" },
-    { "name":"대한디지털임상의학회 학술대회", "start":"2026-06-20", "end":"2026-06-21", "location":"서울", "category":"cv", "type":"domestic", "source":"대한디지털임상의학회", "url":"https://www.kdcm.or.kr" },
-    { "name":"대한심장학회 추계학술대회 KSC2026", "start":"2026-10-16", "end":"2026-10-18", "location":"서울", "category":"cv", "type":"domestic", "source":"대한심장학회", "url":"https://circulation.or.kr" }
+    {
+      "name": "제26차 춘계학술대회일시2008-04-17 ~ 04-19장소제주 라마다 호텔",
+      "start": "2008-04-17",
+      "end": "2008-04-17",
+      "location": "19장소제주 라마다 호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제48차 추계학술대회일시2008-10-15 ~ 10-18장소서울그랜드인터콘티넨탈 호텔",
+      "start": "2008-10-15",
+      "end": "2008-10-15",
+      "location": "18장소서울그랜드인터콘티넨탈 호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제27차 춘계학술대회일시2009-04-16 ~ 04-18장소라마다 플라자 청주호텔",
+      "start": "2009-04-16",
+      "end": "2009-04-16",
+      "location": "18장소라마다 플라자 청주호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제49차 추계학술대회일시2009-10-14 ~ 10-17장소서울 그랜드 인터컨티넨탈 호텔",
+      "start": "2009-10-14",
+      "end": "2009-10-14",
+      "location": "17장소서울 그랜드 인터컨티넨탈 호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제28차 춘계학술대회일시2010-04-08 ~ 04-10장소BEXCO, 부산",
+      "start": "2010-04-08",
+      "end": "2010-04-08",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제2회 한터키 신경외과학회일시2010-05-14 ~ 05-18장소Maritim Pine Beach Resor",
+      "start": "2010-05-14",
+      "end": "2010-05-14",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제50차 추계학술대회일시2010-10-13 ~ 10-16장소서울 그랜드 인터콘티넨탈 호텔",
+      "start": "2010-10-13",
+      "end": "2010-10-13",
+      "location": "16장소서울 그랜드 인터콘티넨탈 호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제29차 춘계학술대회일시2011-04-21 ~ 04-23장소송도 컨벤시아, 인천",
+      "start": "2011-04-21",
+      "end": "2011-04-21",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제51차 추계학술대회일시2011-10-27 ~ 10-29장소가톨릭대 서울성모병원",
+      "start": "2011-10-27",
+      "end": "2011-10-27",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제30차 춘계학술대회일시2012-04-26 ~ 04-28장소광주 김대중컨벤션센타",
+      "start": "2012-04-26",
+      "end": "2012-04-26",
+      "location": "28장소광주 김대중컨벤션센타",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제52차 추계학술대회일시2012-10-17 ~ 10-20장소인천 송도 컨벤시아",
+      "start": "2012-10-17",
+      "end": "2012-10-17",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제31차 춘계학술대회일시2013-04-11 ~ 04-13장소대구 EXCO",
+      "start": "2013-04-11",
+      "end": "2013-04-11",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제53차 추계학술대회일시2013-10-31 ~ 11-03장소쉐라톤 워커힐 호텔",
+      "start": "2013-10-31",
+      "end": "2013-10-31",
+      "location": "03장소쉐라톤 워커힐 호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제32차 춘계학술대회일시2014-04-17 ~ 04-19장소라마다 플라자 제주호텔",
+      "start": "2014-04-17",
+      "end": "2014-04-17",
+      "location": "19장소라마다 플라자 제주호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제54차 추계학술대회일시2014-10-16 ~ 10-19장소그랜드인터컨티넨탈호텔 서울",
+      "start": "2014-10-16",
+      "end": "2014-10-16",
+      "location": "19장소그랜드인터컨티넨탈호텔 서울",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제33차 춘계학술대회일시2015-04-15 ~ 04-18장소제주도 중문 국제컨벤션센터(ICC)",
+      "start": "2015-04-15",
+      "end": "2015-04-15",
+      "location": "18장소제주도 중문 국제컨벤션센터",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "제55차 추계학술대회 및 총회일시2015-10-15 ~ 10-18장소더 케이호텔 서울",
+      "start": "2015-10-15",
+      "end": "2015-10-15",
+      "location": "18장소더 케이호텔 서울",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "2016년 제1차 한-독 신경외과학회 학술대회일시2016-06-12 ~ 06-15장소Frankfurt Am",
+      "start": "2016-06-12",
+      "end": "2016-06-12",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": ""
+    },
+    {
+      "name": "대한마취통증의학회, ‘제100차 학술대회’ 개최 이달 9~11일 국제 학술행사 진행…국내?외 전문가 2800명 참가2023-11-08",
+      "start": "2023-11-08",
+      "end": "2023-11-08",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": ""
+    },
+    {
+      "name": "국내 01월 10일(토) 2025년도 대한신경과학회 추계 전공의 통합교육Ⅱ 장소 : 백범김구기념관 컨벤션홀",
+      "start": "2026-01-10",
+      "end": "2026-01-10",
+      "location": "백범김구기념관 컨벤션홀 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 01월 18일(일) 2025 대한신경과학회 통증 실기 워크숍 (4) 장소 : 삼정호텔 본관 2F 라벤더",
+      "start": "2026-01-18",
+      "end": "2026-01-18",
+      "location": "삼정호텔 본관 2F 라벤더홀 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 02월 03일(화) 2026년도 제69차 전문의 자격시험 1차 장소 : 삼육대학교 국제교육관 2,3층",
+      "start": "2026-02-03",
+      "end": "2026-02-03",
+      "location": "삼육대학교 국제교육관 2,3층 (시험실 71~73) + 자세히 보기",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 02월 08일(일) 2026년도 제69차 전문의 자격시험 2차 장소 : aT센터 3층 세계로룸 + 자세",
+      "start": "2026-02-08",
+      "end": "2026-02-08",
+      "location": "aT센터 3층 세계로룸 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 02월 21일(토) 2026 대한신경면역학회 동계학술대회 장소 : 더리버사이드 호텔 몽블랑홀 + 자세히",
+      "start": "2026-02-21",
+      "end": "2026-02-21",
+      "location": "더리버사이드 호텔 몽블랑홀 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 02월 21일(토) 2026 대한뇌신경조절치료학회 동계학술대회 장소 : 서울 삼정호텔 + 자세히 보기",
+      "start": "2026-02-21",
+      "end": "2026-02-21",
+      "location": "서울 삼정호텔 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 03월 06일(금)",
+      "start": "2026-03-06",
+      "end": "2026-03-06",
+      "location": "천안 상록리조트 2F 상록홀 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 03월 07일(토) 2026 대한두통학회 Mini-Symposium 장소 : 힐튼가든인 서울 강남 +",
+      "start": "2026-03-07",
+      "end": "2026-03-07",
+      "location": "힐튼가든인 서울 강남 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 03월 13일(금) 2026 대한신경근육질환학회 춘계집담회 장소 : 더리버사이드 호텔 몽블랑홀 (예정)",
+      "start": "2026-03-13",
+      "end": "2026-03-13",
+      "location": "더리버사이드 호텔 몽블랑홀 (예정) + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 03월 15일(일) 2026 대한통증자율신경학회 춘계연수강좌 장소 : 서울 삼정호텔 + 자세히 보기",
+      "start": "2026-03-15",
+      "end": "2026-03-15",
+      "location": "서울 삼정호텔 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 03월 15일(일) 2026 대한신경과학회 춘계 전문의 평생교육 장소 : 서울 건국대병원 B3 대강당",
+      "start": "2026-03-15",
+      "end": "2026-03-15",
+      "location": "서울 건국대병원 B3 대강당 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 03월 20일(금)",
+      "start": "2026-03-20",
+      "end": "2026-03-20",
+      "location": "백범김구기념관 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 03월 28일(토) 2026 부산울산경남치매학회 춘계학술대회 장소 : 해운대 백병원 5층 대강당 + 자",
+      "start": "2026-03-28",
+      "end": "2026-03-28",
+      "location": "해운대 백병원 5층 대강당 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 04월 04일(토) 2026 제45차 대한신경과학회 춘계학술대회 장소 : 광주 김대중컨벤션센터 + 자세",
+      "start": "2026-04-04",
+      "end": "2026-04-04",
+      "location": "광주 김대중컨벤션센터 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 04월 11일(토) 2026 대한치매학회 춘계학술대회 장소 : 스위스그랜드호텔 컨벤션홀 + 자세히 보기",
+      "start": "2026-04-11",
+      "end": "2026-04-11",
+      "location": "스위스그랜드호텔 컨벤션홀 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 04월 12일(일) 2026 대한신경과학회 통증 실기 워크숍(1) 장소 : 삼정호텔 본관 2층 라벤더홀",
+      "start": "2026-04-12",
+      "end": "2026-04-12",
+      "location": "삼정호텔 본관 2층 라벤더홀 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 04월 18일(토) 2026 대한뇌졸중학회 연수강좌 장소 : 세종대학교 컨벤션센터 + 자세히 보기",
+      "start": "2026-04-18",
+      "end": "2026-04-18",
+      "location": "세종대학교 컨벤션센터 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 04월 24일(금)",
+      "start": "2026-04-24",
+      "end": "2026-04-24",
+      "location": "스위스그랜드호텔 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 04월 26일(일) 2026 대한 파킨슨병 및 이상운동질환 학회 춘계보수교육 장소 : 서울 삼정호텔 +",
+      "start": "2026-04-26",
+      "end": "2026-04-26",
+      "location": "서울 삼정호텔 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "국내 05월 10일(일) 2026 대한신경과의사회 제44회 춘계학술대회 장소 : 서울 드래곤시티 호텔 + 자",
+      "start": "2026-05-10",
+      "end": "2026-05-10",
+      "location": "서울 드래곤시티 호텔 + 자세히 보기",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": ""
+    },
+    {
+      "name": "06.03(수) ~ 06.06(토) ERA 2026 - 장소 : Glasgow, United Kingdom",
+      "start": "2026-06-03",
+      "end": "2026-06-03",
+      "location": "Glasgow, United Kingdom & VIRTUAL",
+      "category": "endo",
+      "type": "intl",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "KSN 2026 (The 46th Annual Meeting of the Korean Society of Nephrology)",
+      "start": "2026-06-11",
+      "end": "2026-06-11",
+      "location": "Coex, Seoul, Korea",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "06.11(목) ~ 06.13(토) 2026년 제16차 국제 소화기 내시경 네트워크 학술대회 - 장소 : 그",
+      "start": "2026-06-11",
+      "end": "2026-06-11",
+      "location": "그랜드 워커힐 서울",
+      "category": "endo",
+      "type": "intl",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "06.18(목) ~ 06.21(일) JSDT 2026 - 장소 : Kobe, Japan",
+      "start": "2026-06-18",
+      "end": "2026-06-18",
+      "location": "Kobe, Japan",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "06.18(목) ~ 06.20(토) (SSBH 2026) 대한골대사학회 SSBH 2026 & 제38차 춘계학",
+      "start": "2026-06-18",
+      "end": "2026-06-18",
+      "location": "그랜드 워커힐 서울",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "06.20(토) 제35차 당뇨병연구 하계워크샵 - 장소 : 연세대학교 에비슨의생명연구센터 유일한홀 및 세미나",
+      "start": "2026-06-20",
+      "end": "2026-06-20",
+      "location": "연세대학교 에비슨의생명연구센터 유일한홀 및 세미나실",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "06.27(토) 제26차 대한신장학회 신이식연구회 연수강좌 - 장소 : 서울성모병원 지하1층 대강당",
+      "start": "2026-06-27",
+      "end": "2026-06-27",
+      "location": "서울성모병원 지하1층 대강당",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "06.27(토) 2026 한국임상영양학회 학술대회 - 장소 : 가톨릭대학교 성의교정 마리아홀 및 의생명산업연",
+      "start": "2026-06-27",
+      "end": "2026-06-27",
+      "location": "가톨릭대학교 성의교정 마리아홀 및 의생명산업연구원 대강당",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "06.27(토) ~ 06.28(일) 대한내분비학회 제24회 분과전문의 연수강좌 - 장소 : 송도컨벤시아 프리",
+      "start": "2026-06-27",
+      "end": "2026-06-27",
+      "location": "송도컨벤시아 프리미어볼룸(2F)",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": ""
+    },
+    {
+      "name": "2026 KDA Scientific Meeting: 16th ICDM (International Congress of Diabetes and Metabolism)",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "location": "장소 미정",
+      "category": "endo",
+      "type": "intl",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1038&page=1&code=schedule"
+    },
+    {
+      "name": "2026 대구경북 당뇨병 교육자 세미나",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "장소 미정",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1066&page=1&code=schedule"
+    },
+    {
+      "name": "제34회 호남지역 당뇨병 교육자 세미나",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "00 화순전남대학교병원 미래의료혁신센터 대강당",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1067&page=1&code=schedule"
+    },
+    {
+      "name": "제13회 대구경북 당뇨병내분비대사학회 학술심포지엄",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "장소 미정",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1068&page=1&code=schedule"
+    },
+    {
+      "name": "충청지회 제12회 당뇨병 교육자 세미나 및 정기총회",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "00 호텔인더시티",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1069&page=1&code=schedule"
+    },
+    {
+      "name": "The 25th Postgraduate course of diabetes",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "location": "장소 미정",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1057&page=1&code=schedule"
+    },
+    {
+      "name": "강원지회 당뇨병 교육자 세미나",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "location": "00 춘천 베어스호텔",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1070&page=1&code=schedule"
+    },
+    {
+      "name": "경인지회 추계 학술세미나",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "location": "장소 미정",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1071&page=1&code=schedule"
+    },
+    {
+      "name": "제40차 대한당뇨병학회 춘계학술대회",
+      "start": "2027-05-27",
+      "end": "2027-05-29",
+      "location": "00 제주신화월드 랜딩 컨벤션센터",
+      "category": "endo",
+      "type": "domestic",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1049&page=1&code=schedule"
+    },
+    {
+      "name": "2027 KDA Scientific Meeting: 17th ICDM (International Congress of Diabetes and Metabolism) & AASD",
+      "start": "2027-10-28",
+      "end": "2027-10-30",
+      "location": "장소 미정",
+      "category": "endo",
+      "type": "intl",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr./?code=schedule&mode=view&number=1050&page=1&code=schedule"
+    }
   ]
 }
