@@ -140,7 +140,9 @@ def parse_healthmedia_article(url, soup):
         intl_kw = ['국제', 'International', 'World', 'Congress', 'Global', 'Asia']
         event_type = 'intl' if any(k in name for k in intl_kw) else 'domestic'
 
-        ev = make_event(name, date_str, date_str, location, category, event_type, '메디칼허브', url)
+        # 주관학회 추출 (parts가 3개 이상이면 가운데가 주관학회)
+            organizer = parts[1].strip() if len(parts) >= 3 else '메디칼허브'
+            ev = make_event(name, date_str, date_str, location, category, event_type, organizer, url)
         if ev:
             results.append(ev)
             print(f"    ✅ [{category.upper()}] {name} ({date_str}) / {location}")
