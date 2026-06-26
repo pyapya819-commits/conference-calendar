@@ -84,7 +84,6 @@
   .filter-btn.active { background: var(--purple); border-color: var(--purple); color: var(--white); }
   .filter-btn.cv.active { background: #5B2D8E; border-color: #5B2D8E; }
   .filter-btn.pain.active { background: #C9A84C; border-color: #C9A84C; color: #fff; }
-  .filter-btn.endo.active { background: #2D7D9A; border-color: #2D7D9A; }
   .filter-btn.domestic.active { background: #388E3C; border-color: #388E3C; }
   .filter-btn.intl.active { background: #E64A19; border-color: #E64A19; }
   .update-info { margin-left: auto; font-size: 11px; color: var(--gray-400); white-space: nowrap; }
@@ -100,7 +99,6 @@
   }
   .cal-nav button:hover { background: var(--purple); color: var(--white); border-color: var(--purple); }
   .cal-month { font-size: 20px; font-weight: 700; color: var(--purple-dark); min-width: 140px; text-align: center; }
-
   .calendar-grid { background: var(--white); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
   .cal-header-row { display: grid; grid-template-columns: repeat(7, 1fr); background: var(--purple); }
   .cal-header-cell {
@@ -109,7 +107,6 @@
   }
   .cal-header-cell:first-child { color: #FFB3B3; }
   .cal-header-cell:last-child { color: #B3D9FF; }
-
   .cal-body { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-left: 1px solid var(--gray-100); border-top: 1px solid var(--gray-100); }
   .cal-cell {
     min-height: 100px;
@@ -133,19 +130,16 @@
   }
   .cal-cell:nth-child(7n+1) .cal-date { color: #D32F2F; }
   .cal-cell:nth-child(7n) .cal-date { color: #1565C0; }
-
   .cal-event {
     font-size: 10px; font-weight: 500;
     padding: 2px 5px; border-radius: 3px;
     margin-bottom: 2px; cursor: pointer;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    max-width: 100%;
-    display: block;
+    max-width: 100%; display: block;
   }
   .cal-event:hover { opacity: 0.8; }
   .cal-event.cv { background: #EDE7F6; color: #4527A0; }
   .cal-event.pain { background: #FFF8E1; color: #E65100; border-left: 2px solid var(--gold); }
-  .cal-event.endo { background: #E1F5FE; color: #01579B; }
   .cal-event.intl { border-left: 2px solid #E64A19 !important; }
   .cal-more {
     font-size: 10px; color: var(--purple); font-weight: 600;
@@ -180,7 +174,6 @@
   .list-card:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
   .list-card.cv { border-left-color: var(--purple); }
   .list-card.pain { border-left-color: var(--gold); }
-  .list-card.endo { border-left-color: #2D7D9A; }
   .list-date-block {
     min-width: 58px; text-align: center;
     background: var(--purple-pale); border-radius: 8px; padding: 6px 4px;
@@ -194,7 +187,6 @@
   .tag { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 10px; }
   .tag.cv { background: #EDE7F6; color: #4527A0; }
   .tag.pain { background: #FFF8E1; color: #E65100; }
-  .tag.endo { background: #E1F5FE; color: #01579B; }
   .tag.domestic { background: #E8F5E9; color: #2E7D32; }
   .tag.intl { background: #FBE9E7; color: #BF360C; }
   .list-meta-item { font-size: 11px; color: var(--gray-600); }
@@ -248,7 +240,6 @@
   .more-modal-item:hover { background: var(--purple-pale); }
   .more-modal-item.cv { border-left-color: var(--purple); background: #FAF7FF; }
   .more-modal-item.pain { border-left-color: var(--gold); background: #FFFDF5; }
-  .more-modal-item.endo { border-left-color: #2D7D9A; background: #F0F8FF; }
 
   .empty-state { text-align: center; padding: 60px 20px; color: var(--gray-400); font-size: 14px; }
 
@@ -270,7 +261,7 @@
       <h1 class="header-title">학회 일정 <span>캘린더</span></h1>
     </div>
     <div class="header-meta">
-      <div>CV · Pain · 내분비/대사</div>
+      <div>CV · Pain</div>
       <div><strong id="total-count">--</strong>개 학회 일정</div>
     </div>
   </div>
@@ -280,9 +271,8 @@
   <div class="stats-bar">
     <div class="stat-card"><div class="stat-dot" style="background:#5B2D8E"></div><div><div class="stat-num" id="stat-cv">--</div><div class="stat-label">CV</div></div></div>
     <div class="stat-card"><div class="stat-dot" style="background:#C9A84C"></div><div><div class="stat-num" id="stat-pain">--</div><div class="stat-label">Pain</div></div></div>
-    <div class="stat-card"><div class="stat-dot" style="background:#2D7D9A"></div><div><div class="stat-num" id="stat-endo">--</div><div class="stat-label">내분비/대사</div></div></div>
     <div class="stat-card"><div class="stat-dot" style="background:#388E3C"></div><div><div class="stat-num" id="stat-domestic">--</div><div class="stat-label">국내</div></div></div>
-    <div class="stat-card"><div class="stat-dot" style="background:#E64A19"></div><div><div class="stat-num" id="stat-intl">--</div><div class="stat-label">해외</div></div></div>
+    <div class="stat-card"><div class="stat-dot" style="background:#E64A19"></div><div><div class="stat-num" id="stat-intl">--</div><div class="stat-label">국제</div></div></div>
   </div>
 
   <div class="controls">
@@ -294,9 +284,8 @@
       <button class="filter-btn active" onclick="setFilter('all', this)">전체</button>
       <button class="filter-btn cv" onclick="setFilter('cv', this)">CV</button>
       <button class="filter-btn pain" onclick="setFilter('pain', this)">Pain</button>
-      <button class="filter-btn endo" onclick="setFilter('endo', this)">내분비/대사</button>
       <button class="filter-btn domestic" onclick="setFilter('domestic', this)">국내</button>
-      <button class="filter-btn intl" onclick="setFilter('intl', this)">해외</button>
+      <button class="filter-btn intl" onclick="setFilter('intl', this)">국제</button>
     </div>
     <div class="update-info">업데이트: <span id="last-updated">--</span></div>
   </div>
@@ -309,9 +298,12 @@
     </div>
     <div class="calendar-grid">
       <div class="cal-header-row">
-        <div class="cal-header-cell">일</div><div class="cal-header-cell">월</div>
-        <div class="cal-header-cell">화</div><div class="cal-header-cell">수</div>
-        <div class="cal-header-cell">목</div><div class="cal-header-cell">금</div>
+        <div class="cal-header-cell">일</div>
+        <div class="cal-header-cell">월</div>
+        <div class="cal-header-cell">화</div>
+        <div class="cal-header-cell">수</div>
+        <div class="cal-header-cell">목</div>
+        <div class="cal-header-cell">금</div>
         <div class="cal-header-cell">토</div>
       </div>
       <div class="cal-body" id="cal-body"></div>
@@ -349,17 +341,13 @@ let activeFilter = 'all';
 let currentYear = new Date().getFullYear();
 let currentMonth = new Date().getMonth();
 
-// 이름 정제 함수 - 불필요한 앞 텍스트 제거
 function cleanName(name) {
   if (!name) return '';
-  // "국내 09월 06일(일) " 같은 패턴 제거
   name = name.replace(/^(국내|국외|국제)\s*\d{1,2}월\s*\d{1,2}일?\(.+?\)\s*/g, '');
-  // "2026년 " 같은 연도 앞 패턴 정리
   name = name.replace(/^\d{4}년\s+/, '');
-  // "+ 자세히 보기" 제거
-  name = name.replace(/\+\s*자세히\s*보기/g, '').trim();
-  // 장소 정보가 이름에 붙어있으면 제거
+  name = name.replace(/\+\s*자세히\s*보기.*$/g, '').trim();
   name = name.replace(/\s*장소\s*[:：].+$/, '').trim();
+  name = name.replace(/\s{2,}/g, ' ').trim();
   return name;
 }
 
@@ -367,10 +355,10 @@ async function loadData() {
   try {
     const res = await fetch('data/conferences.json');
     const data = await res.json();
-    // 이름 정제 적용
     allConferences = (data.conferences || []).map(c => ({
       ...c,
-      name: cleanName(c.name)
+      name: cleanName(c.name),
+      category: c.category === 'endo' ? 'cv' : c.category
     })).filter(c => c.name.length > 2);
     document.getElementById('last-updated').textContent = data.last_updated || '-';
   } catch(e) {
@@ -386,9 +374,9 @@ function getSampleData() {
   return [
     { name:'대한고혈압학회 제64회 춘계학술대회', start:'2026-05-22', end:'2026-05-23', location:'광주 김대중컨벤션센터', category:'cv', type:'domestic', source:'대한고혈압학회', url:'https://www.koreanhypertension.org' },
     { name:'ESH 2026 (유럽고혈압학회)', start:'2026-05-28', end:'2026-05-31', location:'유럽', category:'cv', type:'intl', source:'대한고혈압학회', url:'https://eshannualmeetings.eu' },
-    { name:'대한당뇨병학회 제39차 춘계학술대회', start:'2026-04-30', end:'2026-05-02', location:'광주 김대중컨벤션센터', category:'endo', type:'domestic', source:'대한당뇨병학회', url:'https://www.diabetes.or.kr' },
+    { name:'대한당뇨병학회 제39차 춘계학술대회', start:'2026-04-30', end:'2026-05-02', location:'광주 김대중컨벤션센터', category:'cv', type:'domestic', source:'대한당뇨병학회', url:'https://www.diabetes.or.kr' },
     { name:'대한신경과학회 추계 전문의 평생교육', start:'2026-09-06', end:'2026-09-06', location:'충남대학교병원', category:'pain', type:'domestic', source:'대한신경과학회', url:'https://renew.neuro.or.kr' },
-    { name:'KSN-IAC 2026 통합학술대회', start:'2026-09-13', end:'2026-09-13', location:'서울', category:'endo', type:'domestic', source:'대한신장학회', url:'https://www.ksn.or.kr' },
+    { name:'KSN 2026 통합학술대회', start:'2026-09-12', end:'2026-09-13', location:'광주 컨벤션센터', category:'cv', type:'domestic', source:'대한신장학회', url:'https://www.ksn.or.kr' },
   ];
 }
 
@@ -417,11 +405,10 @@ function switchView(view, btn) {
 function updateStats() {
   const data = allConferences;
   document.getElementById('total-count').textContent = data.length;
-  document.getElementById('stat-cv').textContent = data.filter(c=>c.category==='cv').length;
-  document.getElementById('stat-pain').textContent = data.filter(c=>c.category==='pain').length;
-  document.getElementById('stat-endo').textContent = data.filter(c=>c.category==='endo').length;
-  document.getElementById('stat-domestic').textContent = data.filter(c=>c.type==='domestic').length;
-  document.getElementById('stat-intl').textContent = data.filter(c=>c.type==='intl').length;
+  document.getElementById('stat-cv').textContent = data.filter(c => c.category === 'cv').length;
+  document.getElementById('stat-pain').textContent = data.filter(c => c.category === 'pain').length;
+  document.getElementById('stat-domestic').textContent = data.filter(c => c.type === 'domestic').length;
+  document.getElementById('stat-intl').textContent = data.filter(c => c.type === 'intl').length;
 }
 
 function changeMonth(dir) {
@@ -501,8 +488,8 @@ function renderList() {
       html += `<div class="list-group"><div class="list-month-header">${y}년 ${monthNames[parseInt(m)-1]}</div>`;
       events.forEach(ev => {
         const sd = new Date(ev.start), ed = new Date(ev.end);
-        const catLabel = ev.category==='cv'?'CV':ev.category==='pain'?'Pain':'내분비/대사';
-        const typeLabel = ev.type==='domestic'?'국내':'해외';
+        const catLabel = ev.category === 'cv' ? 'CV' : 'Pain';
+        const typeLabel = ev.type === 'domestic' ? '국내' : '국제';
         const safeEv = JSON.stringify(ev).replace(/'/g,"&#39;");
         html += `<div class="list-card ${ev.category}" onclick='openModal(${safeEv})'>
           <div class="list-date-block">
@@ -529,12 +516,15 @@ function renderList() {
 }
 
 function openModal(ev) {
-  const catLabel = ev.category==='cv'?'CV':ev.category==='pain'?'Pain':'내분비/대사';
-  const typeLabel = ev.type==='domestic'?'국내':'해외';
-  document.getElementById('modal-tags').innerHTML = `<span class="tag ${ev.category}">${catLabel}</span><span class="tag ${ev.type}">${typeLabel}</span>`;
+  const catLabel = ev.category === 'cv' ? 'CV' : 'Pain';
+  const typeLabel = ev.type === 'domestic' ? '국내' : '국제';
+  document.getElementById('modal-tags').innerHTML = `
+    <span class="tag ${ev.category}">${catLabel}</span>
+    <span class="tag ${ev.type}">${typeLabel}</span>
+  `;
   document.getElementById('modal-title').textContent = ev.name;
   const sd = new Date(ev.start), ed = new Date(ev.end);
-  const dateStr = ev.start===ev.end
+  const dateStr = ev.start === ev.end
     ? `${sd.getFullYear()}년 ${sd.getMonth()+1}월 ${sd.getDate()}일`
     : `${sd.getFullYear()}년 ${sd.getMonth()+1}월 ${sd.getDate()}일 ~ ${ed.getMonth()+1}월 ${ed.getDate()}일`;
   document.getElementById('modal-date').querySelector('span:last-child').textContent = dateStr;
@@ -547,13 +537,13 @@ function openModal(ev) {
 
 function showMore(events, dateLabel) {
   document.getElementById('more-modal-title').textContent = `${dateLabel} 학회 일정`;
-  const catLabel = (c) => c.category==='cv'?'CV':c.category==='pain'?'Pain':'내분비/대사';
   let html = '';
   events.forEach(ev => {
     const safeEv = JSON.stringify(ev).replace(/'/g,"&#39;");
+    const catLabel = ev.category === 'cv' ? 'CV' : 'Pain';
     html += `<div class="more-modal-item ${ev.category}" onclick='openModalFromMore(${safeEv})'>
       <div style="font-weight:600;margin-bottom:2px">${ev.name}</div>
-      <div style="font-size:11px;color:#666">📍 ${ev.location} · ${catLabel(ev)}</div>
+      <div style="font-size:11px;color:#666">📍 ${ev.location} · ${catLabel}</div>
     </div>`;
   });
   document.getElementById('more-modal-list').innerHTML = html;
