@@ -1,356 +1,76 @@
 {
   "last_updated": "2026-06-26",
-  "total": 79,
+  "total": 50,
   "conferences": [
     {
-      "name": "PainConnect 2026 (AAPM 미국통증의학회)",
-      "start": "2026-03-05",
-      "end": "2026-03-08",
-      "location": "솔트레이크시티, 미국",
-      "category": "pain",
-      "type": "intl",
-      "source": "AAPM",
-      "url": ""
-    },
-    {
-      "name": "갑상선 초음파 Hands-On Course",
-      "start": "2026-03-06",
-      "end": "2026-03-06",
-      "location": "부산BPEX",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "제13차 대한류마티스학회 관절초음파 워크숍-중급 과정",
-      "start": "2026-03-07",
-      "end": "2026-03-07",
-      "location": "aT센터 4층 창조룸 2",
+      "name": "대한마취통증의학회 춘계포럼",
+      "start": "2026-03-27",
+      "end": "2026-03-27",
+      "location": "대전DCC",
       "category": "pain",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "제13회 인천권역심뇌혈관질환 심혈관 개원의 연수강좌",
-      "start": "2026-03-07",
-      "end": "2026-03-07",
-      "location": "인하대병원 본원 지하 2층 강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "2026 당뇨병 혈관질환 심포지엄",
-      "start": "2026-03-07",
-      "end": "2026-03-07",
-      "location": "세종대학교 대양AI홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "2026년 대한갑상선학회 춘계연수강좌",
-      "start": "2026-03-08",
-      "end": "2026-03-08",
-      "location": "부산BPEX",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "AAOS Annual Meeting 2026 (미국정형외과학회)",
-      "start": "2026-03-11",
-      "end": "2026-03-15",
-      "location": "라스베이거스, 미국",
-      "category": "pain",
-      "type": "intl",
-      "source": "AAOS",
-      "url": ""
-    },
-    {
-      "name": "제63차 대한비만학회 춘계학술대회",
-      "start": "2026-03-13",
-      "end": "2026-03-13",
-      "location": "그랜드 워커힐 서울",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "제63차 대한비만학회 춘계학술대회",
-      "start": "2026-03-14",
-      "end": "2026-03-14",
-      "location": "그랜드 워커힐 서울",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "충청지회 제24회 춘계 심포지움",
-      "start": "2026-03-14",
-      "end": "2026-03-14",
-      "location": "대전인터시티호텔 5층 에메랄드홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "제4회 심장대사증후군학회 개원의 연수강좌",
-      "start": "2026-03-15",
-      "end": "2026-03-15",
-      "location": "강북삼성병원 대회의실",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "신성빈혈연구회 연수강좌",
-      "start": "2026-03-19",
-      "end": "2026-03-19",
-      "location": "서울성모병원 대강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "대한고관절학회 골다공증-근감소증 심포지움",
-      "start": "2026-03-20",
-      "end": "2026-03-20",
-      "location": "이대서울병원 지하 2층 대강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "제62회 연수강좌",
-      "start": "2026-03-22",
-      "end": "2026-03-22",
-      "location": "세종대학교 컨벤션센터",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr"
     },
     {
       "name": "대한심뇌혈관질환예방학회 춘계학술대회",
       "start": "2026-03-28",
       "end": "2026-03-28",
-      "location": "SKY31 컨벤션 오디토리움&스타+문",
+      "location": "SKY31 컨벤션",
       "category": "cv",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "대한당뇨병학회 호남지회 춘계학술대회",
-      "start": "2026-03-28",
-      "end": "2026-03-28",
-      "location": "전북대학교병원 연구지원센터 새만금홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "당뇨병 교육자 연수강좌",
-      "start": "2026-03-28",
-      "end": "2026-03-28",
-      "location": "서울성모병원 마리아홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "ACC 2026 (미국심장학회)",
-      "start": "2026-03-28",
-      "end": "2026-03-30",
-      "location": "뉴올리언스, 미국",
-      "category": "cv",
-      "type": "intl",
-      "source": "ACC",
+      "source": "대한심뇌혈관질환예방학회",
       "url": ""
     },
     {
-      "name": "대한골대사학회 대전 골다공증 연수강좌",
-      "start": "2026-03-29",
-      "end": "2026-03-29",
-      "location": "대전을지대학교병원 범석홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104741"
-    },
-    {
-      "name": "2026 한국지질동맥경화학회 춘계학술대회",
+      "name": "한국지질동맥경화학회 SoLA 2026 춘계학술대회",
       "start": "2026-04-03",
-      "end": "2026-04-03",
-      "location": "시그니엘 부산 그랜드볼룸 및 볼룸",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "대한골대사학회 대구-경북지회 제16차 골다공증 연수강좌",
-      "start": "2026-04-04",
       "end": "2026-04-04",
-      "location": "경북대학교 응급병동 10층 대강당",
+      "location": "시그니엘 부산",
       "category": "cv",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
+      "source": "한국지질동맥경화학회",
+      "url": "https://www.lipid.or.kr"
     },
     {
-      "name": "제5회 대한신장학회 중환자신장학연구회 심포지엄",
-      "start": "2026-04-04",
-      "end": "2026-04-04",
-      "location": "분당서울대학교병원 헬스케어혁신파크",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "2026 한국지질동맥경화학회 춘계학술대회",
-      "start": "2026-04-04",
-      "end": "2026-04-04",
-      "location": "시그니엘 부산 그랜드볼룸 및 볼룸",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "제11회 비만전문가 기초과정",
-      "start": "2026-04-05",
-      "end": "2026-04-05",
-      "location": "온라인",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "대한골다공증학회 춘계연수강좌",
-      "start": "2026-04-05",
-      "end": "2026-04-05",
-      "location": "서울드래곤시티호텔 3층 한라룸",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "SICEM 2026",
+      "name": "SICEM 2026 (대한내분비학회 국제학술대회)",
       "start": "2026-04-09",
-      "end": "2026-04-09",
-      "location": "그랜드 하얏트 인천",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "대한심부전학회 제15회 개원의 및 전공의 연수강좌",
-      "start": "2026-04-10",
-      "end": "2026-04-10",
-      "location": "노보텔 앰배서더 수원 2층 샴페인홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "SICEM 2026",
-      "start": "2026-04-10",
-      "end": "2026-04-10",
-      "location": "그랜드 하얏트 인천",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "SICEM 2026",
-      "start": "2026-04-11",
       "end": "2026-04-11",
       "location": "그랜드 하얏트 인천",
       "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "2026년 제30회 대한투석협회 심포지엄",
-      "start": "2026-04-12",
-      "end": "2026-04-12",
-      "location": "플렌티 컨벤션",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "EHRA 2026 (유럽심장부정맥학회)",
-      "start": "2026-04-12",
-      "end": "2026-04-14",
-      "location": "파리, 프랑스",
-      "category": "cv",
       "type": "intl",
-      "source": "ESC/EHRA",
+      "source": "대한내분비학회",
+      "url": "https://endocrinology.or.kr"
+    },
+    {
+      "name": "대한심부전학회 개원의 및 전공의 연수강좌",
+      "start": "2026-04-10",
+      "end": "2026-04-10",
+      "location": "노보텔 앰배서더 수원",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심부전학회",
       "url": ""
     },
     {
-      "name": "ACC Asia 2026 + KSC 춘계",
-      "start": "2026-04-17",
+      "name": "대한정형외과학회 제70차 춘계학술대회",
+      "start": "2026-04-16",
       "end": "2026-04-18",
-      "location": "경주, 한국",
-      "category": "cv",
-      "type": "intl",
-      "source": "ACC/KSC",
-      "url": ""
-    },
-    {
-      "name": "제25회 ODOT",
-      "start": "2026-04-18",
-      "end": "2026-04-18",
-      "location": "연세암병원 지하 3층 서암강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "2026년 대한뇌졸중학회 연수강좌",
-      "start": "2026-04-18",
-      "end": "2026-04-18",
-      "location": "세종대학교 광개토관 B2 컨벤션홀",
+      "location": "수원컨벤션센터",
       "category": "pain",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
+      "source": "대한정형외과학회",
+      "url": "https://www.koa.or.kr"
     },
     {
-      "name": "제19회 대한내분비학회 호남지회 연수강좌",
-      "start": "2026-04-18",
+      "name": "ACC Asia 2026 + 춘계심혈관통합학술대회",
+      "start": "2026-04-17",
       "end": "2026-04-18",
-      "location": "전남대학교 의과대학 명학회관",
+      "location": "경주",
       "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
+      "type": "intl",
+      "source": "대한심장학회/ACC",
+      "url": "https://circulation.or.kr"
     },
     {
       "name": "AAN Annual Meeting 2026 (미국신경과학회)",
@@ -360,47 +80,37 @@
       "category": "pain",
       "type": "intl",
       "source": "AAN",
-      "url": ""
+      "url": "https://www.aan.com"
     },
     {
-      "name": "대한정맥통증학회 제10차 춘계 학술대회",
-      "start": "2026-04-19",
-      "end": "2026-04-19",
-      "location": "이대서울병원 컨벤션센터 대강당",
-      "category": "pain",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
-    },
-    {
-      "name": "대한심장학회 강원지회 제42차 춘계 심포지엄",
-      "start": "2026-04-25",
+      "name": "대한내과학회 춘계학술대회",
+      "start": "2026-04-24",
       "end": "2026-04-25",
-      "location": "춘천베어스호텔 2층 소양홀",
+      "location": "광주 김대중컨벤션센터",
       "category": "cv",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
+      "source": "대한내과학회",
+      "url": "https://www.kaim.or.kr"
     },
     {
       "name": "TCTAP 2026 (관상동맥중재술 아시아태평양)",
       "start": "2026-04-29",
       "end": "2026-05-02",
-      "location": "서울, 한국",
+      "location": "서울 코엑스",
       "category": "cv",
       "type": "intl",
       "source": "TCTAP",
-      "url": ""
+      "url": "https://www.tctap.org"
     },
     {
       "name": "제39차 대한당뇨병학회 춘계학술대회",
       "start": "2026-04-30",
-      "end": "2026-04-30",
+      "end": "2026-05-02",
       "location": "광주 김대중컨벤션센터",
       "category": "cv",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=104995"
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr"
     },
     {
       "name": "AANS Annual Meeting 2026 (미국신경외과학회)",
@@ -410,17 +120,17 @@
       "category": "pain",
       "type": "intl",
       "source": "AANS",
-      "url": ""
+      "url": "https://www.aans.org"
     },
     {
-      "name": "ESC Heart Failure 2026",
-      "start": "2026-05-09",
-      "end": "2026-05-12",
-      "location": "바르셀로나, 스페인",
+      "name": "대한고혈압학회 제64회 춘계학술대회",
+      "start": "2026-05-22",
+      "end": "2026-05-23",
+      "location": "광주 김대중컨벤션센터",
       "category": "cv",
-      "type": "intl",
-      "source": "ESC",
-      "url": ""
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org"
     },
     {
       "name": "ESH 2026 (유럽고혈압학회)",
@@ -430,7 +140,7 @@
       "category": "cv",
       "type": "intl",
       "source": "ESH",
-      "url": ""
+      "url": "https://eshannualmeetings.eu"
     },
     {
       "name": "AHS Annual Meeting 2026 (미국두통학회)",
@@ -440,147 +150,17 @@
       "category": "pain",
       "type": "intl",
       "source": "AHS",
-      "url": ""
+      "url": "https://americanheadachesociety.org"
     },
     {
-      "name": "2026 대한골다공증학회 호남 및 제주 연수강좌",
-      "start": "2026-06-07",
-      "end": "2026-06-07",
-      "location": "김대중컨벤션센터",
+      "name": "대한신장학회 KSN 2026 연례학술대회",
+      "start": "2026-06-11",
+      "end": "2026-06-14",
+      "location": "코엑스, 서울",
       "category": "cv",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026년 대한심혈관약물치료학회 춘계학술대회",
-      "start": "2026-06-13",
-      "end": "2026-06-13",
-      "location": "세종대학교 대양AI센터 AI홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026 강원지회 당뇨병 교육자 연수강좌",
-      "start": "2026-06-13",
-      "end": "2026-06-13",
-      "location": "춘천 한림대학교 한림중개의과학 연구원",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "대한신경과학회 제주지회 심포지움",
-      "start": "2026-06-13",
-      "end": "2026-06-13",
-      "location": "제주 중앙병원 1층 우란홀",
-      "category": "pain",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026년 제5회 SMC 폐고혈압 심포지엄",
-      "start": "2026-06-19",
-      "end": "2026-06-19",
-      "location": "삼성서울병원 일원캠퍼스 9층 히포크라테스홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026 대한신경집중치료학회 춘계학술대회",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "서울 삼정호텔 제라늄홀",
-      "category": "pain",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "ESDM 2026",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "양재 aT센터 창조룸",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "제35차 당뇨병 연구 하계워크샵",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "연세대학교 에비슨의생명연구센터 유일한홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "제10회 내분비 초음파 및 기능검사 연수강좌",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "대전인터시티호텔",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026 대한류마티스학회 제주지회 연수강좌",
-      "start": "2026-06-27",
-      "end": "2026-06-27",
-      "location": "제주대학교병원",
-      "category": "pain",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026년 대한신경근육질환학회 연수강좌",
-      "start": "2026-06-27",
-      "end": "2026-06-27",
-      "location": "더리버사이드호텔 6층 몽블랑홀",
-      "category": "pain",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026 지방간 심포지엄",
-      "start": "2026-06-27",
-      "end": "2026-06-27",
-      "location": "강북삼성병원 대강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "경인지회 제4차 개원의 연수강좌",
-      "start": "2026-06-27",
-      "end": "2026-06-27",
-      "location": "중앙대학교 광명병원 5층 김부섭홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "제24회 분과전문의 연수강좌",
-      "start": "2026-06-27",
-      "end": "2026-06-27",
-      "location": "송도컨벤시아 프리미아볼룸",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
+      "source": "대한신장학회",
+      "url": "https://www.ksn.or.kr"
     },
     {
       "name": "EAN Congress 2026 (유럽신경과학회)",
@@ -590,147 +170,27 @@
       "category": "pain",
       "type": "intl",
       "source": "EAN",
+      "url": "https://www.ean.org"
+    },
+    {
+      "name": "심근경색연구회 하계 심포지엄",
+      "start": "2026-07-03",
+      "end": "2026-07-03",
+      "location": "대구 계명대학교 의과대학 존슨홀",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
       "url": ""
     },
     {
-      "name": "제24회 분과전문의 연수강좌",
-      "start": "2026-06-28",
-      "end": "2026-06-28",
-      "location": "송도컨벤시아 프리미아볼룸",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=105605"
-    },
-    {
-      "name": "2026년 제 27회 심근경색연구회 하계 심포지엄",
-      "start": "2026-07-03",
-      "end": "2026-07-03",
-      "location": "대구 계명대학교 의과대학 존슨홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "The 3rd International Congress and 26th Meeting of the Korean Society for Diabetic Foot",
-      "start": "2026-07-03",
-      "end": "2026-07-03",
-      "location": "스위스그랜드호텔",
-      "category": "cv",
-      "type": "intl",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "2026년 제 27회 심근경색연구회 하계 심포지엄",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "대구 계명대학교 의과대학 존슨홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "대한근감소증학회 제2회 근감소증과 척추변형 심포지엄",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "서울부민병원 미래의학센터&온라인",
-      "category": "pain",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "The 3rd International Congress and 26th Meeting of the Korean Society for Diabetic Foot",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "스위스그랜드호텔",
-      "category": "cv",
-      "type": "intl",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "대한심장학회 영호남지회 연수강좌",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "대구그랜드호텔 2층 다이너스티홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "제12회 부신연구회 심포지엄",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "서울대학교병원 의학연구센터",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "제4차 대한비만학회 호남지회 학술대회",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "전북대학교병원 임상연구지원센터 2층 새만금홀",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "2026 대한골다공증학회 영남 연수강좌",
-      "start": "2026-07-05",
-      "end": "2026-07-05",
-      "location": "인제대학교 해운대백병원 5층 대강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "제 21차 대전세종충청지회 투석심포지엄",
-      "start": "2026-07-05",
-      "end": "2026-07-05",
-      "location": "KT인재개발원 제1연수관 대강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "제90회 대전 개원의 및 전공의 연수강좌",
+      "name": "대한고혈압학회 대전 개원의 연수강좌",
       "start": "2026-07-10",
       "end": "2026-07-10",
-      "location": "대전 오노마 호텔, 5층 그랜드볼룸",
+      "location": "대전 오노마 호텔",
       "category": "cv",
       "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "대한신경집중치료학회 2026년 하계 NICE 아카데미",
-      "start": "2026-07-25",
-      "end": "2026-07-25",
-      "location": "서울아산병원 동관 6층",
-      "category": "pain",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
-    },
-    {
-      "name": "2026 대한심장학회 심장종양학연구회 하계심포지움",
-      "start": "2026-07-25",
-      "end": "2026-07-25",
-      "location": "서울성모병원 대강당",
-      "category": "cv",
-      "type": "domestic",
-      "source": "메디칼허브",
-      "url": "http://www.healthmedia.co.kr/news/articleView.html?idxno=106062"
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org"
     },
     {
       "name": "ESC Congress 2026 (유럽심장학회)",
@@ -740,7 +200,47 @@
       "category": "cv",
       "type": "intl",
       "source": "ESC",
-      "url": ""
+      "url": "https://www.escardio.org"
+    },
+    {
+      "name": "KSN-IAC 2026 통합학술대회",
+      "start": "2026-09-12",
+      "end": "2026-09-13",
+      "location": "광주 컨벤션센터",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한신장학회",
+      "url": "https://www.ksn.or.kr"
+    },
+    {
+      "name": "2026 KDA Scientific Meeting (대한당뇨병학회 추계)",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "location": "서울",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr"
+    },
+    {
+      "name": "대한심장학회 제70차 추계학술대회 (KSC 2026)",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "location": "서울",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://circulation.or.kr"
+    },
+    {
+      "name": "대한정형외과학회 제70차 추계학술대회",
+      "start": "2026-10-08",
+      "end": "2026-10-10",
+      "location": "마곡 코엑스",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한정형외과학회",
+      "url": "https://www.koa.or.kr"
     },
     {
       "name": "JSH 2026 (일본고혈압학회)",
@@ -750,7 +250,7 @@
       "category": "cv",
       "type": "intl",
       "source": "JSH",
-      "url": ""
+      "url": "https://www.congre.co.jp/48jsh2026"
     },
     {
       "name": "ISH 2026 (국제고혈압학회)",
@@ -760,7 +260,7 @@
       "category": "cv",
       "type": "intl",
       "source": "ISH",
-      "url": ""
+      "url": "https://ishecs26.org"
     },
     {
       "name": "IASP World Congress on Pain 2026 (세계통증학회)",
@@ -770,7 +270,7 @@
       "category": "pain",
       "type": "intl",
       "source": "IASP",
-      "url": ""
+      "url": "https://www.iasp-pain.org"
     },
     {
       "name": "TCT 2026 (경피적관상동맥중재술학회)",
@@ -780,7 +280,17 @@
       "category": "cv",
       "type": "intl",
       "source": "TCT",
-      "url": ""
+      "url": "https://www.tctconference.com"
+    },
+    {
+      "name": "대한고혈압학회 제65회 추계학술대회 (Hypertension Seoul)",
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "location": "서울",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org"
     },
     {
       "name": "AHA Scientific Sessions 2026 (미국심장협회)",
@@ -790,7 +300,207 @@
       "category": "cv",
       "type": "intl",
       "source": "AHA",
+      "url": "https://www.heart.org"
+    },
+    {
+      "name": "ACC 2026 (미국심장학회 연례학술대회)",
+      "start": "2026-03-28",
+      "end": "2026-03-30",
+      "location": "뉴올리언스, 미국",
+      "category": "cv",
+      "type": "intl",
+      "source": "ACC",
+      "url": "https://accscientificsession.acc.org"
+    },
+    {
+      "name": "PainConnect 2026 (AAPM 미국통증의학회)",
+      "start": "2026-03-05",
+      "end": "2026-03-08",
+      "location": "솔트레이크시티, 미국",
+      "category": "pain",
+      "type": "intl",
+      "source": "AAPM",
+      "url": "https://www.painmed.org"
+    },
+    {
+      "name": "AAOS Annual Meeting 2026 (미국정형외과학회)",
+      "start": "2026-03-11",
+      "end": "2026-03-15",
+      "location": "라스베이거스, 미국",
+      "category": "pain",
+      "type": "intl",
+      "source": "AAOS",
+      "url": "https://www.aaos.org"
+    },
+    {
+      "name": "EHRA 2026 (유럽심장부정맥학회)",
+      "start": "2026-04-12",
+      "end": "2026-04-14",
+      "location": "파리, 프랑스",
+      "category": "cv",
+      "type": "intl",
+      "source": "ESC/EHRA",
+      "url": "https://www.escardio.org"
+    },
+    {
+      "name": "ESC Heart Failure 2026",
+      "start": "2026-05-09",
+      "end": "2026-05-12",
+      "location": "바르셀로나, 스페인",
+      "category": "cv",
+      "type": "intl",
+      "source": "ESC",
+      "url": "https://www.escardio.org"
+    },
+    {
+      "name": "대한신경과학회 제45차 춘계학술대회",
+      "start": "2026-04-04",
+      "end": "2026-04-05",
+      "location": "광주 김대중컨벤션센터",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": "https://renew.neuro.or.kr"
+    },
+    {
+      "name": "대한신경과학회 제46차 추계학술대회",
+      "start": "2026-11-26",
+      "end": "2026-11-28",
+      "location": "서울 롯데호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경과학회",
+      "url": "https://renew.neuro.or.kr"
+    },
+    {
+      "name": "대한재활의학회 춘계학술대회",
+      "start": "2026-04-17",
+      "end": "2026-04-18",
+      "location": "서울",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한재활의학회",
+      "url": "https://www.karm.or.kr"
+    },
+    {
+      "name": "대한통증학회 제81차 학술대회",
+      "start": "2026-05-16",
+      "end": "2026-05-16",
+      "location": "대전컨벤션센터",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한통증학회",
+      "url": "https://www.painfree.or.kr"
+    },
+    {
+      "name": "대한두통학회 춘계학술대회",
+      "start": "2026-06-21",
+      "end": "2026-06-21",
+      "location": "서울 삼정호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한두통학회",
       "url": ""
+    },
+    {
+      "name": "대한신경외과학회 제44차 춘계학술대회",
+      "start": "2026-04-16",
+      "end": "2026-04-18",
+      "location": "제주신화월드",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한신경외과학회",
+      "url": "https://www.neurosurgery.or.kr"
+    },
+    {
+      "name": "대한마취통증의학회 추계학술대회",
+      "start": "2026-10-29",
+      "end": "2026-10-31",
+      "location": "부산 BEXCO",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr"
+    },
+    {
+      "name": "대한내분비학회 제24회 분과전문의 연수강좌",
+      "start": "2026-06-27",
+      "end": "2026-06-28",
+      "location": "송도컨벤시아",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한내분비학회",
+      "url": "https://endocrinology.or.kr"
+    },
+    {
+      "name": "대한당뇨병학회 추계 국제학술대회 (ICDM 2026)",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "location": "코엑스 마곡, 서울",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr"
+    },
+    {
+      "name": "대한류마티스학회 춘계학술대회",
+      "start": "2026-05-21",
+      "end": "2026-05-23",
+      "location": "서울",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한류마티스학회",
+      "url": ""
+    },
+    {
+      "name": "대한골대사학회 SSBH 2026 춘계학술대회",
+      "start": "2026-06-18",
+      "end": "2026-06-20",
+      "location": "그랜드 워커힐 서울",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한골대사학회",
+      "url": ""
+    },
+    {
+      "name": "대한골다공증학회 춘계연수강좌",
+      "start": "2026-04-05",
+      "end": "2026-04-05",
+      "location": "서울드래곤시티호텔",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한골다공증학회",
+      "url": ""
+    },
+    {
+      "name": "대한고혈압학회 서울 개원의 연수강좌",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "location": "서울",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org"
+    },
+    {
+      "name": "대한두통학회 추계학술대회",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "location": "서울 삼정호텔",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한두통학회",
+      "url": ""
+    },
+    {
+      "name": "대한재활의학회 추계학술대회",
+      "start": "2026-10-22",
+      "end": "2026-10-24",
+      "location": "서울",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한재활의학회",
+      "url": "https://www.karm.or.kr"
     }
   ]
 }
