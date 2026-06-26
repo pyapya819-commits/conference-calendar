@@ -12,7 +12,6 @@
     --purple-pale: #F0EAF8;
     --gold: #C9A84C;
     --gold-light: #E8C96A;
-    --gold-pale: #FDF6E3;
     --white: #FFFFFF;
     --gray-50: #F8F8F8;
     --gray-100: #F0F0F0;
@@ -34,127 +33,232 @@
   }
   header {
     background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple) 60%, var(--purple-light) 100%);
-    padding: 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    position: sticky; top: 0; z-index: 100;
     box-shadow: 0 2px 16px rgba(61,26,107,0.25);
   }
   .header-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 18px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    max-width: 1200px; margin: 0 auto;
+    padding: 16px 32px;
+    display: flex; align-items: center; justify-content: space-between;
   }
-  .logo-area { display: flex; align-items: center; gap: 14px; }
+  .logo-area { display: flex; align-items: center; gap: 12px; }
   .logo-badge {
-    background: var(--gold);
-    color: var(--purple-dark);
-    font-weight: 700;
-    font-size: 13px;
-    padding: 5px 12px;
-    border-radius: 20px;
-    letter-spacing: 0.5px;
+    background: var(--gold); color: var(--purple-dark);
+    font-weight: 700; font-size: 12px;
+    padding: 4px 10px; border-radius: 20px;
   }
-  .header-title { color: var(--white); font-size: 20px; font-weight: 600; letter-spacing: -0.3px; }
+  .header-title { color: var(--white); font-size: 18px; font-weight: 600; }
   .header-title span { color: var(--gold-light); }
-  .header-meta { color: rgba(255,255,255,0.7); font-size: 13px; text-align: right; line-height: 1.5; }
+  .header-meta { color: rgba(255,255,255,0.7); font-size: 12px; text-align: right; line-height: 1.6; }
   .header-meta strong { color: var(--gold-light); font-weight: 600; }
-  .main { max-width: 1200px; margin: 0 auto; padding: 28px 32px 60px; }
-  .controls { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
-  .view-tabs { display: flex; background: var(--white); border: 1.5px solid var(--purple-pale); border-radius: var(--radius); overflow: hidden; }
-  .view-tab { padding: 8px 20px; font-size: 14px; font-weight: 500; cursor: pointer; border: none; background: none; color: var(--gray-600); transition: all 0.18s; }
+  .main { max-width: 1200px; margin: 0 auto; padding: 24px 32px 60px; }
+
+  /* Stats */
+  .stats-bar { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
+  .stat-card {
+    background: var(--white); border-radius: var(--radius);
+    padding: 10px 16px; box-shadow: var(--shadow);
+    display: flex; align-items: center; gap: 8px; flex: 1; min-width: 100px;
+  }
+  .stat-num { font-size: 22px; font-weight: 700; color: var(--purple-dark); }
+  .stat-label { font-size: 11px; color: var(--gray-600); font-weight: 500; }
+  .stat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+  /* Controls */
+  .controls { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+  .view-tabs {
+    display: flex; background: var(--white);
+    border: 1.5px solid var(--purple-pale); border-radius: var(--radius); overflow: hidden;
+  }
+  .view-tab {
+    padding: 7px 18px; font-size: 13px; font-weight: 500;
+    cursor: pointer; border: none; background: none; color: var(--gray-600);
+  }
   .view-tab.active { background: var(--purple); color: var(--white); }
-  .filter-group { display: flex; gap: 8px; flex-wrap: wrap; flex: 1; }
-  .filter-btn { padding: 7px 16px; border-radius: 20px; border: 1.5px solid var(--gray-200); background: var(--white); font-size: 13px; font-weight: 500; cursor: pointer; color: var(--gray-600); transition: all 0.18s; }
-  .filter-btn:hover { border-color: var(--purple); color: var(--purple); }
+  .filter-group { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
+  .filter-btn {
+    padding: 6px 14px; border-radius: 20px;
+    border: 1.5px solid var(--gray-200); background: var(--white);
+    font-size: 12px; font-weight: 500; cursor: pointer; color: var(--gray-600);
+  }
   .filter-btn.active { background: var(--purple); border-color: var(--purple); color: var(--white); }
   .filter-btn.cv.active { background: #5B2D8E; border-color: #5B2D8E; }
   .filter-btn.pain.active { background: #C9A84C; border-color: #C9A84C; color: #fff; }
   .filter-btn.endo.active { background: #2D7D9A; border-color: #2D7D9A; }
   .filter-btn.domestic.active { background: #388E3C; border-color: #388E3C; }
   .filter-btn.intl.active { background: #E64A19; border-color: #E64A19; }
-  .update-info { margin-left: auto; font-size: 12px; color: var(--gray-400); white-space: nowrap; }
+  .update-info { margin-left: auto; font-size: 11px; color: var(--gray-400); white-space: nowrap; }
   .update-info span { color: var(--purple); font-weight: 600; }
-  .cal-nav { display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 20px; }
-  .cal-nav button { background: var(--white); border: 1.5px solid var(--gray-200); border-radius: 8px; width: 36px; height: 36px; font-size: 18px; cursor: pointer; color: var(--purple); transition: all 0.15s; display: flex; align-items: center; justify-content: center; }
+
+  /* Calendar */
+  .cal-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin-bottom: 16px; }
+  .cal-nav button {
+    background: var(--white); border: 1.5px solid var(--gray-200);
+    border-radius: 8px; width: 34px; height: 34px;
+    font-size: 16px; cursor: pointer; color: var(--purple);
+    display: flex; align-items: center; justify-content: center;
+  }
   .cal-nav button:hover { background: var(--purple); color: var(--white); border-color: var(--purple); }
-  .cal-month { font-size: 22px; font-weight: 700; color: var(--purple-dark); min-width: 160px; text-align: center; }
+  .cal-month { font-size: 20px; font-weight: 700; color: var(--purple-dark); min-width: 140px; text-align: center; }
+
   .calendar-grid { background: var(--white); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
   .cal-header-row { display: grid; grid-template-columns: repeat(7, 1fr); background: var(--purple); }
-  .cal-header-cell { text-align: center; padding: 12px 4px; font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); }
+  .cal-header-cell {
+    text-align: center; padding: 10px 4px;
+    font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.85);
+  }
   .cal-header-cell:first-child { color: #FFB3B3; }
   .cal-header-cell:last-child { color: #B3D9FF; }
-  .cal-body { display: grid; grid-template-columns: repeat(7, 1fr); border-left: 1px solid var(--gray-100); border-top: 1px solid var(--gray-100); }
-  .cal-cell { min-height: 110px; border-right: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); padding: 8px 6px 6px; position: relative; transition: background 0.12s; }
+
+  .cal-body { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-left: 1px solid var(--gray-100); border-top: 1px solid var(--gray-100); }
+  .cal-cell {
+    min-height: 100px;
+    border-right: 1px solid var(--gray-100);
+    border-bottom: 1px solid var(--gray-100);
+    padding: 6px 4px 4px;
+    overflow: hidden;
+  }
   .cal-cell:hover { background: var(--purple-pale); }
   .cal-cell.other-month { background: var(--gray-50); }
   .cal-cell.other-month .cal-date { color: var(--gray-400); }
-  .cal-cell.today .cal-date { background: var(--gold); color: var(--purple-dark); border-radius: 50%; width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; font-weight: 700; }
-  .cal-date { font-size: 13px; font-weight: 600; color: var(--gray-800); margin-bottom: 4px; width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; }
+  .cal-cell.today .cal-date {
+    background: var(--gold); color: var(--purple-dark);
+    border-radius: 50%; font-weight: 700;
+  }
+  .cal-date {
+    font-size: 12px; font-weight: 600; color: var(--gray-800);
+    margin-bottom: 3px;
+    width: 22px; height: 22px;
+    display: flex; align-items: center; justify-content: center;
+  }
   .cal-cell:nth-child(7n+1) .cal-date { color: #D32F2F; }
   .cal-cell:nth-child(7n) .cal-date { color: #1565C0; }
-  .cal-event { font-size: 11px; font-weight: 500; padding: 2px 6px; border-radius: 4px; margin-bottom: 2px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: opacity 0.15s; }
+
+  .cal-event {
+    font-size: 10px; font-weight: 500;
+    padding: 2px 5px; border-radius: 3px;
+    margin-bottom: 2px; cursor: pointer;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+  }
   .cal-event:hover { opacity: 0.8; }
   .cal-event.cv { background: #EDE7F6; color: #4527A0; }
-  .cal-event.pain { background: #FFF8E1; color: #E65100; border-left: 3px solid var(--gold); }
+  .cal-event.pain { background: #FFF8E1; color: #E65100; border-left: 2px solid var(--gold); }
   .cal-event.endo { background: #E1F5FE; color: #01579B; }
-  .cal-event.intl { border-left: 3px solid #E64A19; }
-  .cal-more { font-size: 11px; color: var(--purple); font-weight: 600; cursor: pointer; padding: 1px 4px; }
-  .list-group { margin-bottom: 32px; }
-  .list-month-header { font-size: 16px; font-weight: 700; color: var(--purple-dark); padding: 10px 0 12px; border-bottom: 2px solid var(--purple-pale); margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
-  .list-month-header::before { content: ''; display: inline-block; width: 4px; height: 18px; background: var(--gold); border-radius: 2px; }
-  .list-card { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px 20px; margin-bottom: 10px; display: flex; gap: 16px; align-items: flex-start; transition: box-shadow 0.18s, transform 0.12s; cursor: pointer; border-left: 4px solid transparent; }
+  .cal-event.intl { border-left: 2px solid #E64A19 !important; }
+  .cal-more {
+    font-size: 10px; color: var(--purple); font-weight: 600;
+    cursor: pointer; padding: 1px 4px;
+    background: var(--purple-pale); border-radius: 3px;
+    display: inline-block; margin-top: 1px;
+  }
+  .cal-more:hover { background: var(--purple); color: white; }
+
+  /* List View */
+  .list-group { margin-bottom: 28px; }
+  .list-month-header {
+    font-size: 15px; font-weight: 700; color: var(--purple-dark);
+    padding: 8px 0 10px;
+    border-bottom: 2px solid var(--purple-pale);
+    margin-bottom: 12px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .list-month-header::before {
+    content: ''; display: inline-block;
+    width: 4px; height: 16px;
+    background: var(--gold); border-radius: 2px;
+  }
+  .list-card {
+    background: var(--white); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 14px 18px;
+    margin-bottom: 8px; display: flex; gap: 14px;
+    align-items: flex-start; cursor: pointer;
+    border-left: 4px solid transparent;
+    transition: box-shadow 0.15s, transform 0.1s;
+  }
   .list-card:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
   .list-card.cv { border-left-color: var(--purple); }
   .list-card.pain { border-left-color: var(--gold); }
   .list-card.endo { border-left-color: #2D7D9A; }
-  .list-date-block { min-width: 64px; text-align: center; background: var(--purple-pale); border-radius: 8px; padding: 8px 4px; }
-  .list-date-month { font-size: 11px; font-weight: 600; color: var(--purple); text-transform: uppercase; }
-  .list-date-day { font-size: 22px; font-weight: 700; color: var(--purple-dark); line-height: 1.2; }
-  .list-date-end { font-size: 11px; color: var(--gray-400); margin-top: 2px; }
-  .list-info { flex: 1; }
-  .list-name { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 5px; line-height: 1.4; }
-  .list-meta { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-  .list-meta-item { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--gray-600); }
-  .list-meta-item svg { width: 13px; height: 13px; flex-shrink: 0; }
-  .tag { font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 12px; }
+  .list-date-block {
+    min-width: 58px; text-align: center;
+    background: var(--purple-pale); border-radius: 8px; padding: 6px 4px;
+  }
+  .list-date-month { font-size: 10px; font-weight: 600; color: var(--purple); }
+  .list-date-day { font-size: 20px; font-weight: 700; color: var(--purple-dark); line-height: 1.2; }
+  .list-date-end { font-size: 10px; color: var(--gray-400); margin-top: 1px; }
+  .list-info { flex: 1; min-width: 0; }
+  .list-name { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 5px; line-height: 1.4; }
+  .list-meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .tag { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 10px; }
   .tag.cv { background: #EDE7F6; color: #4527A0; }
   .tag.pain { background: #FFF8E1; color: #E65100; }
   .tag.endo { background: #E1F5FE; color: #01579B; }
   .tag.domestic { background: #E8F5E9; color: #2E7D32; }
   .tag.intl { background: #FBE9E7; color: #BF360C; }
-  .list-link { font-size: 12px; color: var(--purple); text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 3px; margin-top: 6px; }
+  .list-meta-item { font-size: 11px; color: var(--gray-600); }
+  .list-link {
+    font-size: 11px; color: var(--purple); text-decoration: none;
+    font-weight: 500; margin-top: 5px; display: inline-block;
+  }
   .list-link:hover { text-decoration: underline; }
-  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 999; align-items: center; justify-content: center; }
+
+  /* Modal */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.45); z-index: 999;
+    align-items: center; justify-content: center;
+  }
   .modal-overlay.open { display: flex; }
-  .modal { background: var(--white); border-radius: 16px; padding: 28px 32px; max-width: 460px; width: 90%; box-shadow: 0 8px 40px rgba(0,0,0,0.2); position: relative; }
-  .modal-close { position: absolute; top: 16px; right: 16px; background: none; border: none; font-size: 22px; cursor: pointer; color: var(--gray-400); }
-  .modal-tag-row { display: flex; gap: 6px; margin-bottom: 14px; }
-  .modal-title { font-size: 18px; font-weight: 700; color: var(--purple-dark); margin-bottom: 16px; line-height: 1.4; }
-  .modal-row { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 10px; font-size: 14px; color: var(--gray-600); }
-  .modal-row svg { width: 16px; height: 16px; color: var(--purple); flex-shrink: 0; margin-top: 1px; }
-  .modal-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 16px; background: var(--purple); color: var(--white); padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 600; transition: background 0.15s; }
+  .modal {
+    background: var(--white); border-radius: 16px;
+    padding: 24px 28px; max-width: 440px; width: 90%;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.2); position: relative;
+  }
+  .modal-close {
+    position: absolute; top: 14px; right: 14px;
+    background: none; border: none; font-size: 20px;
+    cursor: pointer; color: var(--gray-400);
+  }
+  .modal-tag-row { display: flex; gap: 6px; margin-bottom: 12px; }
+  .modal-title { font-size: 16px; font-weight: 700; color: var(--purple-dark); margin-bottom: 14px; line-height: 1.4; }
+  .modal-row { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 8px; font-size: 13px; color: var(--gray-600); }
+  .modal-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin-top: 14px; background: var(--purple); color: var(--white);
+    padding: 9px 18px; border-radius: 8px; text-decoration: none;
+    font-size: 13px; font-weight: 600;
+  }
   .modal-link:hover { background: var(--purple-dark); }
-  .empty-state { text-align: center; padding: 60px 20px; color: var(--gray-400); }
-  .empty-state svg { width: 48px; height: 48px; margin-bottom: 12px; opacity: 0.4; }
-  .empty-state p { font-size: 15px; }
-  .stats-bar { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
-  .stat-card { background: var(--white); border-radius: var(--radius); padding: 12px 20px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 10px; flex: 1; min-width: 120px; }
-  .stat-num { font-size: 24px; font-weight: 700; color: var(--purple-dark); }
-  .stat-label { font-size: 12px; color: var(--gray-600); font-weight: 500; }
-  .stat-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+  /* More modal */
+  .more-modal {
+    background: var(--white); border-radius: 16px;
+    padding: 20px 24px; max-width: 360px; width: 90%;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.2); position: relative;
+    max-height: 80vh; overflow-y: auto;
+  }
+  .more-modal-title { font-size: 14px; font-weight: 700; color: var(--purple-dark); margin-bottom: 12px; }
+  .more-modal-item {
+    padding: 8px 10px; border-radius: 8px; margin-bottom: 6px;
+    cursor: pointer; border-left: 3px solid transparent;
+    font-size: 13px; font-weight: 500;
+  }
+  .more-modal-item:hover { background: var(--purple-pale); }
+  .more-modal-item.cv { border-left-color: var(--purple); background: #FAF7FF; }
+  .more-modal-item.pain { border-left-color: var(--gold); background: #FFFDF5; }
+  .more-modal-item.endo { border-left-color: #2D7D9A; background: #F0F8FF; }
+
+  .empty-state { text-align: center; padding: 60px 20px; color: var(--gray-400); font-size: 14px; }
+
   @media (max-width: 768px) {
-    .main { padding: 16px; }
-    .header-inner { padding: 14px 16px; }
-    .header-title { font-size: 16px; }
-    .cal-cell { min-height: 70px; }
+    .main { padding: 12px; }
+    .header-inner { padding: 12px 16px; }
+    .cal-cell { min-height: 60px; }
     .cal-event { font-size: 9px; }
-    .stats-bar { gap: 8px; }
-    .stat-card { padding: 10px 14px; min-width: 90px; }
-    .stat-num { font-size: 20px; }
+    .stats-bar { gap: 6px; }
+    .stat-card { padding: 8px 12px; min-width: 80px; }
   }
 </style>
 </head>
@@ -171,18 +275,20 @@
     </div>
   </div>
 </header>
+
 <div class="main">
-  <div class="stats-bar" id="stats-bar">
+  <div class="stats-bar">
     <div class="stat-card"><div class="stat-dot" style="background:#5B2D8E"></div><div><div class="stat-num" id="stat-cv">--</div><div class="stat-label">CV</div></div></div>
     <div class="stat-card"><div class="stat-dot" style="background:#C9A84C"></div><div><div class="stat-num" id="stat-pain">--</div><div class="stat-label">Pain</div></div></div>
     <div class="stat-card"><div class="stat-dot" style="background:#2D7D9A"></div><div><div class="stat-num" id="stat-endo">--</div><div class="stat-label">내분비/대사</div></div></div>
     <div class="stat-card"><div class="stat-dot" style="background:#388E3C"></div><div><div class="stat-num" id="stat-domestic">--</div><div class="stat-label">국내</div></div></div>
     <div class="stat-card"><div class="stat-dot" style="background:#E64A19"></div><div><div class="stat-num" id="stat-intl">--</div><div class="stat-label">해외</div></div></div>
   </div>
+
   <div class="controls">
     <div class="view-tabs">
-      <button class="view-tab active" onclick="switchView('calendar')">📅 달력</button>
-      <button class="view-tab" onclick="switchView('list')">☰ 리스트</button>
+      <button class="view-tab active" onclick="switchView('calendar', this)">📅 달력</button>
+      <button class="view-tab" onclick="switchView('list', this)">☰ 리스트</button>
     </div>
     <div class="filter-group">
       <button class="filter-btn active" onclick="setFilter('all', this)">전체</button>
@@ -192,9 +298,10 @@
       <button class="filter-btn domestic" onclick="setFilter('domestic', this)">국내</button>
       <button class="filter-btn intl" onclick="setFilter('intl', this)">해외</button>
     </div>
-    <div class="update-info">마지막 업데이트: <span id="last-updated">--</span></div>
+    <div class="update-info">업데이트: <span id="last-updated">--</span></div>
   </div>
-  <div class="calendar-section" id="calendar-section">
+
+  <div id="calendar-section">
     <div class="cal-nav">
       <button onclick="changeMonth(-1)">&#8249;</button>
       <div class="cal-month" id="cal-month-label"></div>
@@ -202,44 +309,73 @@
     </div>
     <div class="calendar-grid">
       <div class="cal-header-row">
-        <div class="cal-header-cell">일</div><div class="cal-header-cell">월</div><div class="cal-header-cell">화</div><div class="cal-header-cell">수</div><div class="cal-header-cell">목</div><div class="cal-header-cell">금</div><div class="cal-header-cell">토</div>
+        <div class="cal-header-cell">일</div><div class="cal-header-cell">월</div>
+        <div class="cal-header-cell">화</div><div class="cal-header-cell">수</div>
+        <div class="cal-header-cell">목</div><div class="cal-header-cell">금</div>
+        <div class="cal-header-cell">토</div>
       </div>
       <div class="cal-body" id="cal-body"></div>
     </div>
   </div>
-  <div class="list-section" id="list-section" style="display:none"></div>
+
+  <div id="list-section" style="display:none"></div>
 </div>
+
+<!-- 이벤트 상세 모달 -->
 <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
-  <div class="modal" id="modal">
+  <div class="modal">
     <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.remove('open')">✕</button>
     <div class="modal-tag-row" id="modal-tags"></div>
     <div class="modal-title" id="modal-title"></div>
-    <div class="modal-row" id="modal-date">
-      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-      <span></span>
-    </div>
-    <div class="modal-row" id="modal-location">
-      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-      <span></span>
-    </div>
+    <div class="modal-row" id="modal-date"><span>📅</span><span></span></div>
+    <div class="modal-row" id="modal-location"><span>📍</span><span></span></div>
+    <div class="modal-row" id="modal-source"><span>🏥</span><span></span></div>
     <div id="modal-link-wrap"></div>
   </div>
 </div>
+
+<!-- +N개 더 모달 -->
+<div class="modal-overlay" id="more-overlay" onclick="closeMoreModal(event)">
+  <div class="more-modal">
+    <button class="modal-close" onclick="document.getElementById('more-overlay').classList.remove('open')">✕</button>
+    <div class="more-modal-title" id="more-modal-title"></div>
+    <div id="more-modal-list"></div>
+  </div>
+</div>
+
 <script>
 let allConferences = [];
 let activeFilter = 'all';
 let currentYear = new Date().getFullYear();
 let currentMonth = new Date().getMonth();
 
+// 이름 정제 함수 - 불필요한 앞 텍스트 제거
+function cleanName(name) {
+  if (!name) return '';
+  // "국내 09월 06일(일) " 같은 패턴 제거
+  name = name.replace(/^(국내|국외|국제)\s*\d{1,2}월\s*\d{1,2}일?\(.+?\)\s*/g, '');
+  // "2026년 " 같은 연도 앞 패턴 정리
+  name = name.replace(/^\d{4}년\s+/, '');
+  // "+ 자세히 보기" 제거
+  name = name.replace(/\+\s*자세히\s*보기/g, '').trim();
+  // 장소 정보가 이름에 붙어있으면 제거
+  name = name.replace(/\s*장소\s*[:：].+$/, '').trim();
+  return name;
+}
+
 async function loadData() {
   try {
     const res = await fetch('data/conferences.json');
     const data = await res.json();
-    allConferences = data.conferences || [];
+    // 이름 정제 적용
+    allConferences = (data.conferences || []).map(c => ({
+      ...c,
+      name: cleanName(c.name)
+    })).filter(c => c.name.length > 2);
     document.getElementById('last-updated').textContent = data.last_updated || '-';
   } catch(e) {
     allConferences = getSampleData();
-    document.getElementById('last-updated').textContent = '샘플 데이터';
+    document.getElementById('last-updated').textContent = '샘플';
   }
   updateStats();
   renderCalendar();
@@ -250,19 +386,9 @@ function getSampleData() {
   return [
     { name:'대한고혈압학회 제64회 춘계학술대회', start:'2026-05-22', end:'2026-05-23', location:'광주 김대중컨벤션센터', category:'cv', type:'domestic', source:'대한고혈압학회', url:'https://www.koreanhypertension.org' },
     { name:'ESH 2026 (유럽고혈압학회)', start:'2026-05-28', end:'2026-05-31', location:'유럽', category:'cv', type:'intl', source:'대한고혈압학회', url:'https://eshannualmeetings.eu' },
-    { name:'ISH 2026 (국제고혈압학회)', start:'2026-10-22', end:'2026-10-25', location:'두바이', category:'cv', type:'intl', source:'대한고혈압학회', url:'https://ishecs26.org' },
-    { name:'JSH 2026 (일본고혈압학회)', start:'2026-10-10', end:'2026-10-12', location:'일본', category:'cv', type:'intl', source:'대한고혈압학회', url:'https://www.congre.co.jp/48jsh2026' },
-    { name:'대한고혈압학회 제65회 추계학술대회', start:'2026-11-05', end:'2026-11-07', location:'서울', category:'cv', type:'domestic', source:'대한고혈압학회', url:'https://www.koreanhypertension.org' },
-    { name:'대한통증학회 춘계학술대회', start:'2026-04-25', end:'2026-04-26', location:'서울', category:'pain', type:'domestic', source:'대한통증학회', url:'https://www.painfree.or.kr' },
-    { name:'대한마취통증의학회 학술대회', start:'2026-10-08', end:'2026-10-10', location:'서울', category:'pain', type:'domestic', source:'대한마취통증의학회', url:'https://www.anesthesia.or.kr' },
     { name:'대한당뇨병학회 제39차 춘계학술대회', start:'2026-04-30', end:'2026-05-02', location:'광주 김대중컨벤션센터', category:'endo', type:'domestic', source:'대한당뇨병학회', url:'https://www.diabetes.or.kr' },
-    { name:'SICEM 2026 (대한내분비학회)', start:'2026-04-09', end:'2026-04-11', location:'그랜드 하얏트 인천', category:'endo', type:'domestic', source:'대한내분비학회', url:'https://endocrinology.or.kr' },
-    { name:'대한신경과학회 춘계학술대회', start:'2026-05-14', end:'2026-05-16', location:'서울', category:'pain', type:'domestic', source:'대한신경과학회', url:'https://renew.neuro.or.kr' },
-    { name:'대한신장학회 KSN 2026', start:'2026-06-18', end:'2026-06-21', location:'서울 코엑스', category:'endo', type:'domestic', source:'대한신장학회', url:'https://www.ksn.or.kr' },
-    { name:'대한재활의학회 춘계학술대회', start:'2026-04-17', end:'2026-04-18', location:'서울', category:'pain', type:'domestic', source:'대한재활의학회', url:'https://www.karm.or.kr' },
-    { name:'대한정형외과학회 춘계학술대회', start:'2026-05-28', end:'2026-05-30', location:'서울', category:'pain', type:'domestic', source:'대한정형외과학회', url:'https://www.koa.or.kr' },
-    { name:'대한디지털임상의학회 학술대회', start:'2026-06-20', end:'2026-06-21', location:'서울', category:'cv', type:'domestic', source:'대한디지털임상의학회', url:'https://www.kdcm.or.kr' },
-    { name:'대한심장학회 추계학술대회 KSC2026', start:'2026-10-16', end:'2026-10-18', location:'서울', category:'cv', type:'domestic', source:'대한심장학회', url:'https://circulation.or.kr' },
+    { name:'대한신경과학회 추계 전문의 평생교육', start:'2026-09-06', end:'2026-09-06', location:'충남대학교병원', category:'pain', type:'domestic', source:'대한신경과학회', url:'https://renew.neuro.or.kr' },
+    { name:'KSN-IAC 2026 통합학술대회', start:'2026-09-13', end:'2026-09-13', location:'서울', category:'endo', type:'domestic', source:'대한신장학회', url:'https://www.ksn.or.kr' },
   ];
 }
 
@@ -281,16 +407,11 @@ function setFilter(filter, btn) {
   renderList();
 }
 
-function switchView(view) {
+function switchView(view, btn) {
   document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
-  event.target.classList.add('active');
-  if (view === 'calendar') {
-    document.getElementById('calendar-section').style.display = 'block';
-    document.getElementById('list-section').style.display = 'none';
-  } else {
-    document.getElementById('calendar-section').style.display = 'none';
-    document.getElementById('list-section').style.display = 'block';
-  }
+  btn.classList.add('active');
+  document.getElementById('calendar-section').style.display = view === 'calendar' ? 'block' : 'none';
+  document.getElementById('list-section').style.display = view === 'list' ? 'block' : 'none';
 }
 
 function updateStats() {
@@ -314,18 +435,22 @@ function renderCalendar() {
   const year = currentYear, month = currentMonth;
   const monthNames = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
   document.getElementById('cal-month-label').textContent = `${year}년 ${monthNames[month]}`;
+
   const firstDay = new Date(year, month, 1).getDay();
   const lastDate = new Date(year, month+1, 0).getDate();
   const today = new Date();
   const filtered = getFiltered();
+
   function getEventsForDate(y, m, d) {
     const dateStr = `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
     return filtered.filter(c => c.start <= dateStr && c.end >= dateStr);
   }
+
   let html = '';
   let dayCount = 1;
-  let prevMonthDays = new Date(year, month, 0).getDate();
+  const prevMonthDays = new Date(year, month, 0).getDate();
   const totalCells = Math.ceil((firstDay + lastDate) / 7) * 7;
+
   for (let i = 0; i < totalCells; i++) {
     let d, m2, y2, otherMonth = false;
     if (i < firstDay) {
@@ -335,16 +460,21 @@ function renderCalendar() {
       d = dayCount - lastDate; dayCount++; m2 = month + 1; y2 = year;
       if (m2 > 11) { m2 = 0; y2++; } otherMonth = true;
     } else { d = dayCount++; m2 = month; y2 = year; }
+
     const isToday = !otherMonth && d === today.getDate() && month === today.getMonth() && year === today.getFullYear();
     const events = otherMonth ? [] : getEventsForDate(y2, m2, d);
     const maxShow = 2;
+
     html += `<div class="cal-cell${otherMonth?' other-month':''}${isToday?' today':''}">`;
     html += `<div class="cal-date">${d}</div>`;
     events.slice(0, maxShow).forEach(ev => {
-      html += `<div class="cal-event ${ev.category}${ev.type==='intl'?' intl':''}" onclick='openModal(${JSON.stringify(ev).replace(/'/g,"&#39;")})'>${ev.name}</div>`;
+      const safeEv = JSON.stringify(ev).replace(/'/g,"&#39;");
+      html += `<div class="cal-event ${ev.category}${ev.type==='intl'?' intl':''}" onclick='openModal(${safeEv})' title="${ev.name}">${ev.name}</div>`;
     });
     if (events.length > maxShow) {
-      html += `<div class="cal-more" onclick="showMoreEvents(event, ${JSON.stringify(events.slice(maxShow)).replace(/'/g,"&#39;")})">+${events.length - maxShow}개 더</div>`;
+      const remaining = JSON.stringify(events).replace(/'/g,"&#39;");
+      const dateLabel = `${month+1}월 ${d}일`;
+      html += `<span class="cal-more" onclick='showMore(${remaining}, "${dateLabel}")'>+${events.length - maxShow}개 더</span>`;
     }
     html += `</div>`;
   }
@@ -359,37 +489,36 @@ function renderList() {
     if (!grouped[key]) grouped[key] = [];
     grouped[key].push(c);
   });
+
   const monthNames = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
   let html = '';
-  if (Object.keys(grouped).length === 0) {
-    html = `<div class="empty-state"><p>해당 조건의 학회 일정이 없습니다.</p></div>`;
+
+  if (!Object.keys(grouped).length) {
+    html = `<div class="empty-state">해당 조건의 학회 일정이 없습니다.</div>`;
   } else {
     Object.entries(grouped).sort().forEach(([key, events]) => {
       const [y, m] = key.split('-');
       html += `<div class="list-group"><div class="list-month-header">${y}년 ${monthNames[parseInt(m)-1]}</div>`;
       events.forEach(ev => {
-        const startDate = new Date(ev.start);
-        const endDate = new Date(ev.end);
-        const startDay = startDate.getDate();
-        const startMonth = monthNames[startDate.getMonth()];
-        const endDay = endDate.getDate();
-        const catLabel = ev.category === 'cv' ? 'CV' : ev.category === 'pain' ? 'Pain' : '내분비/대사';
-        const typeLabel = ev.type === 'domestic' ? '국내' : '해외';
-        html += `<div class="list-card ${ev.category}" onclick='openModal(${JSON.stringify(ev).replace(/'/g,"&#39;")})'>
+        const sd = new Date(ev.start), ed = new Date(ev.end);
+        const catLabel = ev.category==='cv'?'CV':ev.category==='pain'?'Pain':'내분비/대사';
+        const typeLabel = ev.type==='domestic'?'국내':'해외';
+        const safeEv = JSON.stringify(ev).replace(/'/g,"&#39;");
+        html += `<div class="list-card ${ev.category}" onclick='openModal(${safeEv})'>
           <div class="list-date-block">
-            <div class="list-date-month">${startMonth}</div>
-            <div class="list-date-day">${startDay}</div>
-            ${ev.start !== ev.end ? `<div class="list-date-end">~${endDay}일</div>` : ''}
+            <div class="list-date-month">${monthNames[sd.getMonth()]}</div>
+            <div class="list-date-day">${sd.getDate()}</div>
+            ${ev.start!==ev.end?`<div class="list-date-end">~${ed.getDate()}일</div>`:''}
           </div>
           <div class="list-info">
             <div class="list-name">${ev.name}</div>
             <div class="list-meta">
               <span class="tag ${ev.category}">${catLabel}</span>
               <span class="tag ${ev.type}">${typeLabel}</span>
-              <span class="list-meta-item">${ev.location}</span>
+              <span class="list-meta-item">📍 ${ev.location}</span>
               <span class="list-meta-item" style="color:var(--gray-400)">출처: ${ev.source}</span>
             </div>
-            ${ev.url ? `<a class="list-link" href="${ev.url}" target="_blank" onclick="event.stopPropagation()">공식 사이트 →</a>` : ''}
+            ${ev.url?`<a class="list-link" href="${ev.url}" target="_blank" onclick="event.stopPropagation()">공식 사이트 →</a>`:''}
           </div>
         </div>`;
       });
@@ -400,19 +529,40 @@ function renderList() {
 }
 
 function openModal(ev) {
-  const catLabel = ev.category === 'cv' ? 'CV' : ev.category === 'pain' ? 'Pain' : '내분비/대사';
-  const typeLabel = ev.type === 'domestic' ? '국내' : '해외';
+  const catLabel = ev.category==='cv'?'CV':ev.category==='pain'?'Pain':'내분비/대사';
+  const typeLabel = ev.type==='domestic'?'국내':'해외';
   document.getElementById('modal-tags').innerHTML = `<span class="tag ${ev.category}">${catLabel}</span><span class="tag ${ev.type}">${typeLabel}</span>`;
   document.getElementById('modal-title').textContent = ev.name;
-  const startDate = new Date(ev.start);
-  const endDate = new Date(ev.end);
-  const dateStr = ev.start === ev.end
-    ? `${startDate.getFullYear()}년 ${startDate.getMonth()+1}월 ${startDate.getDate()}일`
-    : `${startDate.getFullYear()}년 ${startDate.getMonth()+1}월 ${startDate.getDate()}일 ~ ${endDate.getMonth()+1}월 ${endDate.getDate()}일`;
-  document.getElementById('modal-date').querySelector('span').textContent = dateStr;
-  document.getElementById('modal-location').querySelector('span').textContent = ev.location || '장소 미정';
-  document.getElementById('modal-link-wrap').innerHTML = ev.url ? `<a class="modal-link" href="${ev.url}" target="_blank">공식 사이트 방문 →</a>` : '';
+  const sd = new Date(ev.start), ed = new Date(ev.end);
+  const dateStr = ev.start===ev.end
+    ? `${sd.getFullYear()}년 ${sd.getMonth()+1}월 ${sd.getDate()}일`
+    : `${sd.getFullYear()}년 ${sd.getMonth()+1}월 ${sd.getDate()}일 ~ ${ed.getMonth()+1}월 ${ed.getDate()}일`;
+  document.getElementById('modal-date').querySelector('span:last-child').textContent = dateStr;
+  document.getElementById('modal-location').querySelector('span:last-child').textContent = ev.location || '장소 미정';
+  document.getElementById('modal-source').querySelector('span:last-child').textContent = ev.source || '';
+  document.getElementById('modal-link-wrap').innerHTML = ev.url
+    ? `<a class="modal-link" href="${ev.url}" target="_blank">공식 사이트 방문 →</a>` : '';
   document.getElementById('modal-overlay').classList.add('open');
+}
+
+function showMore(events, dateLabel) {
+  document.getElementById('more-modal-title').textContent = `${dateLabel} 학회 일정`;
+  const catLabel = (c) => c.category==='cv'?'CV':c.category==='pain'?'Pain':'내분비/대사';
+  let html = '';
+  events.forEach(ev => {
+    const safeEv = JSON.stringify(ev).replace(/'/g,"&#39;");
+    html += `<div class="more-modal-item ${ev.category}" onclick='openModalFromMore(${safeEv})'>
+      <div style="font-weight:600;margin-bottom:2px">${ev.name}</div>
+      <div style="font-size:11px;color:#666">📍 ${ev.location} · ${catLabel(ev)}</div>
+    </div>`;
+  });
+  document.getElementById('more-modal-list').innerHTML = html;
+  document.getElementById('more-overlay').classList.add('open');
+}
+
+function openModalFromMore(ev) {
+  document.getElementById('more-overlay').classList.remove('open');
+  setTimeout(() => openModal(ev), 100);
 }
 
 function closeModal(e) {
@@ -421,9 +571,10 @@ function closeModal(e) {
   }
 }
 
-function showMoreEvents(e, events) {
-  e.stopPropagation();
-  if (events.length > 0) openModal(events[0]);
+function closeMoreModal(e) {
+  if (e.target === document.getElementById('more-overlay')) {
+    document.getElementById('more-overlay').classList.remove('open');
+  }
 }
 
 loadData();
