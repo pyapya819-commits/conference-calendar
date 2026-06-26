@@ -1,0 +1,896 @@
+{
+  "last_updated": "2026-06-26",
+  "total": 89,
+  "conferences": [
+    {
+      "name": "대한심장학회 2026년 신년하례식",
+      "start": "2026-01-06",
+      "end": "2026-01-06",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=1&category="
+    },
+    {
+      "name": "심장종양학연구회 동계심포지움",
+      "start": "2026-01-10",
+      "end": "2026-01-10",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=1&category="
+    },
+    {
+      "name": "대한심혈관중재학회",
+      "start": "2026-01-15",
+      "end": "2026-01-17",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=1&category="
+    },
+    {
+      "name": "2026 대한마취통증의학회 온라인 연수강좌",
+      "start": "2026-01-17",
+      "end": "2026-01-17",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=1"
+    },
+    {
+      "name": "2026 유전체 및 정밀의료연구회 동계심포지움",
+      "start": "2026-01-23",
+      "end": "2026-01-23",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=1&category="
+    },
+    {
+      "name": "[대한부위마취학회] 대한부위마취학회 제4회 Workshop for Instructor with World Day of Regional Anesthesia",
+      "start": "2026-01-31",
+      "end": "2026-01-31",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=1"
+    },
+    {
+      "name": "KSPH",
+      "start": "2026-02-07",
+      "end": "2026-02-08",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=2&category="
+    },
+    {
+      "name": "2026",
+      "start": "2026-02-27",
+      "end": "2026-02-27",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=2&category="
+    },
+    {
+      "name": "[대한통증학회] TPI 연수강좌",
+      "start": "2026-03-15",
+      "end": "2026-03-15",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=3"
+    },
+    {
+      "name": "JCS 2026",
+      "start": "2026-03-20",
+      "end": "2026-03-22",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=3&category="
+    },
+    {
+      "name": "부울경심장학회",
+      "start": "2026-03-21",
+      "end": "2026-03-21",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=3&category="
+    },
+    {
+      "name": "[대한마취약리학회] 2026년 대한마취약리학회 학술대회",
+      "start": "2026-03-21",
+      "end": "2026-03-21",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=3"
+    },
+    {
+      "name": "대한심장학회 대구경북지회 임상시험장학 연수강좌",
+      "start": "2026-03-22",
+      "end": "2026-03-22",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=3&category="
+    },
+    {
+      "name": "[대한마취통증의학회] 2026년 대한마취통증의학회 춘계포럼 발전세미나",
+      "start": "2026-03-27",
+      "end": "2026-03-27",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=3"
+    },
+    {
+      "name": "2026",
+      "start": "2026-03-28",
+      "end": "2026-03-28",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=3&category="
+    },
+    {
+      "name": "[대한마취통증의학회] 2026년 대한마취통증의학회 춘계포럼 연수교육",
+      "start": "2026-03-28",
+      "end": "2026-03-28",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=3"
+    },
+    {
+      "name": "대한소아심장학회 폐동맥고혈압심포지엄 및 학술대회",
+      "start": "2026-04-03",
+      "end": "2026-04-04",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=4&category="
+    },
+    {
+      "name": "SoLA 2026 [한국지질동맥경화학회 춘계학술대회]",
+      "start": "2026-04-03",
+      "end": "2026-04-04",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=4&category="
+    },
+    {
+      "name": "[대한뇌신경마취학회] 제 33회 정기 학술대회",
+      "start": "2026-04-04",
+      "end": "2026-04-04",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=4"
+    },
+    {
+      "name": "[대한통증학회] 초음파 연수강좌 (II)",
+      "start": "2026-04-05",
+      "end": "2026-04-05",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=4"
+    },
+    {
+      "name": "[대한심폐혈관마취학회] 2026 대한심폐혈관마취학회 춘계학술대회",
+      "start": "2026-04-11",
+      "end": "2026-04-11",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=4"
+    },
+    {
+      "name": "[대한심폐혈관마취학회] 2026 대한심폐혈관마취학회 춘계학술대회",
+      "start": "2026-04-12",
+      "end": "2026-04-12",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=4"
+    },
+    {
+      "name": "2026년 춘계심혈관통합학술대회",
+      "start": "2026-04-17",
+      "end": "2026-04-18",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=4&category="
+    },
+    {
+      "name": "[대한척추통증학회] 제45차 춘계학술대회",
+      "start": "2026-04-19",
+      "end": "2026-04-19",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=4"
+    },
+    {
+      "name": "[대한이식마취학회] 2026년 대한이식마취학회 제13차 학술대회",
+      "start": "2026-04-25",
+      "end": "2026-04-25",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=4"
+    },
+    {
+      "name": "31st TCTAP 2026 (제31회 관상동맥중재시술 국제학술회의)",
+      "start": "2026-04-29",
+      "end": "2026-05-02",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=4&category="
+    },
+    {
+      "name": "[대한중환자의학회] The 46th KSCCM Annual Congress – Acute and Critical Care Conference 2026",
+      "start": "2026-04-30",
+      "end": "2026-04-30",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=4"
+    },
+    {
+      "name": "[대한중환자의학회] The 46th KSCCM Annual Congress – Acute and Critical Care Conference 2026",
+      "start": "2026-05-01",
+      "end": "2026-05-01",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=5"
+    },
+    {
+      "name": "[대한중환자의학회] 제 20차 중환자의학 기초과정 연수교육(BCCRC)",
+      "start": "2026-05-02",
+      "end": "2026-05-02",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=5"
+    },
+    {
+      "name": "[대한노인마취통증학회] 2026년 제10회 대한노인마취통증학회 학술대회",
+      "start": "2026-05-09",
+      "end": "2026-05-09",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=5"
+    },
+    {
+      "name": "APSC 2026",
+      "start": "2026-05-14",
+      "end": "2026-05-17",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=5&category="
+    },
+    {
+      "name": "심장성쇼크연구회 제6회 심포지엄",
+      "start": "2026-05-16",
+      "end": "2026-05-16",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=5&category="
+    },
+    {
+      "name": "[대한통증학회] 제81차 학술대회",
+      "start": "2026-05-16",
+      "end": "2026-05-16",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=5"
+    },
+    {
+      "name": "[대한통증학회] 2026년 춘계 연수교육",
+      "start": "2026-05-17",
+      "end": "2026-05-17",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=5"
+    },
+    {
+      "name": "2026년 대한고혈압학회 제64회 춘계학술대회",
+      "start": "2026-05-22",
+      "end": "2026-05-23",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=5&category="
+    },
+    {
+      "name": "APCMS 2026",
+      "start": "2026-05-29",
+      "end": "2026-05-30",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=5&category="
+    },
+    {
+      "name": "[대한신경근연구학회] KNMR 춘계학술대회",
+      "start": "2026-05-30",
+      "end": "2026-05-30",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=5"
+    },
+    {
+      "name": "성인선천성심장병 Summer Summit",
+      "start": "2026-06-13",
+      "end": "2026-06-13",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=6&category="
+    },
+    {
+      "name": "[대한소아마취학회] 2026년 제34차 대한소아마취학회 창립 30주년 기념 학술대회",
+      "start": "2026-06-13",
+      "end": "2026-06-13",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=6"
+    },
+    {
+      "name": "2026년 기초과학연구회 하계심포지엄",
+      "start": "2026-06-19",
+      "end": "2026-06-20",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=6&category="
+    },
+    {
+      "name": "대한심부전학회",
+      "start": "2026-06-20",
+      "end": "2026-06-20",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=6&category="
+    },
+    {
+      "name": "[대한산과마취학회] 2026년 대한산과마취학회 제29차 학술대회",
+      "start": "2026-06-20",
+      "end": "2026-06-20",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=6"
+    },
+    {
+      "name": "대한심혈관중재학회",
+      "start": "2026-06-26",
+      "end": "2026-06-27",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=6&category="
+    },
+    {
+      "name": "PH Korea 2026 (대한폐고혈압학회 제11차 연례학술대회)",
+      "start": "2026-06-26",
+      "end": "2026-06-27",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=6&category="
+    },
+    {
+      "name": "2026년 대한마취통증의학회 삼남지역(전남,전북,충청) 학술대회",
+      "start": "2026-06-27",
+      "end": "2026-06-27",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=6"
+    },
+    {
+      "name": "[대한통증학회] Cadaver Workshop 1차",
+      "start": "2026-06-28",
+      "end": "2026-06-28",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=6"
+    },
+    {
+      "name": "2026",
+      "start": "2026-07-03",
+      "end": "2026-07-04",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=7&category="
+    },
+    {
+      "name": "[대한뇌신경마취학회] 하계 워크샵",
+      "start": "2026-07-04",
+      "end": "2026-07-04",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "[대한뇌신경마취학회] 하계 워크샵",
+      "start": "2026-07-05",
+      "end": "2026-07-05",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "[대한통증학회] Cadaver Workshop 3차",
+      "start": "2026-07-11",
+      "end": "2026-07-11",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "[대한통증학회] Cadaver Workshop 3차",
+      "start": "2026-07-12",
+      "end": "2026-07-12",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "KOVAS 2026",
+      "start": "2026-07-17",
+      "end": "2026-07-18",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=7&category="
+    },
+    {
+      "name": "[대한통증학회] Cadaver Workshop 4차",
+      "start": "2026-07-18",
+      "end": "2026-07-18",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "[대한통증학회] Cadaver Workshop 4차",
+      "start": "2026-07-19",
+      "end": "2026-07-19",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "심장종양학연구회 하계심포지움",
+      "start": "2026-07-25",
+      "end": "2026-07-25",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=7&category="
+    },
+    {
+      "name": "[대한척추통증학회] 제46차 학술대회 및 제13차 여름마취통증학교",
+      "start": "2026-07-25",
+      "end": "2026-07-25",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "[대한통증학회] 증식치료 연수강좌",
+      "start": "2026-07-26",
+      "end": "2026-07-26",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=7"
+    },
+    {
+      "name": "15th SEOUL VALVES 2026 (제15회 서울심장판막시술 국제학술회의)",
+      "start": "2026-08-06",
+      "end": "2026-08-07",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=8&category="
+    },
+    {
+      "name": "[대한통증학회] 약물치료 연수강좌",
+      "start": "2026-08-23",
+      "end": "2026-08-23",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=8"
+    },
+    {
+      "name": "ESC 2026",
+      "start": "2026-08-28",
+      "end": "2026-08-31",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=8&category="
+    },
+    {
+      "name": "[대한부위마취학회] AOSRA-PM 2026 conjoined with KSRA Annual Meeting",
+      "start": "2026-08-28",
+      "end": "2026-08-28",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=8"
+    },
+    {
+      "name": "[대한부위마취학회] AOSRA-PM 2026 conjoined with KSRA Annual Meeting",
+      "start": "2026-08-29",
+      "end": "2026-08-29",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=8"
+    },
+    {
+      "name": "[대한부위마취학회] AOSRA-PM 2026 conjoined with KSRA Annual Meeting",
+      "start": "2026-08-30",
+      "end": "2026-08-30",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=8"
+    },
+    {
+      "name": "Heart Failure Seoul 2026",
+      "start": "2026-09-10",
+      "end": "2026-09-12",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=9&category="
+    },
+    {
+      "name": "ICoLA 2026 [한국지질동맥경화학회 추계학술대회]",
+      "start": "2026-09-10",
+      "end": "2026-09-12",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=9&category="
+    },
+    {
+      "name": "[대한외래마취학회] 2026년 제9차 대한외래마취학회 학술대회",
+      "start": "2026-09-12",
+      "end": "2026-09-12",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=9"
+    },
+    {
+      "name": "제 20차 앙코르서울 2026",
+      "start": "2026-09-16",
+      "end": "2026-09-18",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=9&category="
+    },
+    {
+      "name": "Echo Seoul and Cardiac Imaging 2026",
+      "start": "2026-09-18",
+      "end": "2026-09-20",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=9&category="
+    },
+    {
+      "name": "심장의 날 걷기대회",
+      "start": "2026-09-19",
+      "end": "2026-09-19",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=9&category="
+    },
+    {
+      "name": "[대한통증학회] 도수치료 연수강좌",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=10"
+    },
+    {
+      "name": "KSC 2026(대한심장학회 제70차 추계학술대회)",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=10&category="
+    },
+    {
+      "name": "제19차 아시아태평양 부정맥 국제학술대회 및 제18회 대한부정맥학회 정기국제학술대회",
+      "start": "2026-10-21",
+      "end": "2026-10-24",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=10&category="
+    },
+    {
+      "name": "KHRS 2026 & APHRS 2026",
+      "start": "2026-10-21",
+      "end": "2026-10-24",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=10&category="
+    },
+    {
+      "name": "[대한소아마취학회] 2026년 제10회 대한소아마취학회 Simulation & Hands-on Workshop",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=10"
+    },
+    {
+      "name": "Hypertension Seoul 2026 (2026년 대한고혈압학회 제65회 추계국제학술대회)",
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=11&category="
+    },
+    {
+      "name": "[대한마취통증의학회] KoreAnesthesia 2026(제103차 종합학술대회)",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=11"
+    },
+    {
+      "name": "[대한마취통증의학회] KoreAnesthesia 2026(제103차 종합학술대회)",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=11"
+    },
+    {
+      "name": "심장대사증후군학회",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=11&category="
+    },
+    {
+      "name": "AHA 2026",
+      "start": "2026-11-07",
+      "end": "2026-11-09",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "intl",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=11&category="
+    },
+    {
+      "name": "[대한마취통증의학회] KoreAnesthesia 2026(제103차 종합학술대회)",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "domestic",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=11"
+    },
+    {
+      "name": "2026년",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=11&category="
+    },
+    {
+      "name": "[대한통증학회] KPS 2026 Annual Meeting(제82차 학술대회 및 연수교육)",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=11"
+    },
+    {
+      "name": "[대한통증학회] KPS 2026 Annual Meeting(제82차 학술대회 및 연수교육)",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=11"
+    },
+    {
+      "name": "[대한통증학회] KPS 2026 Annual Meeting(제82차 학술대회 및 연수교육)",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "location": "장소 미정",
+      "category": "pain",
+      "type": "intl",
+      "source": "대한마취통증의학회",
+      "url": "https://www.anesthesia.or.kr/bbs/index.html?code=schedule&mode=list&year=2026&month=11"
+    },
+    {
+      "name": "11th COMPLEX PCI 2026 ─ Make it Simple! Technical Forum A to Z (제11회 복합 심장중재시술 국제학술회의)",
+      "start": "2026-11-26",
+      "end": "2026-11-27",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=11&category="
+    },
+    {
+      "name": "11th LEFT MAIN SUMMIT ─ COMPLEX PCI 2026 (제11회 좌간동맥 주관부병변 PCI 국제학술회의)",
+      "start": "2026-12-02",
+      "end": "2026-12-04",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=12&category="
+    },
+    {
+      "name": "KSE 2026 [제61회 추계학술대회]",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=12&category="
+    },
+    {
+      "name": "2026 대한혈관학회 동계학술대회",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=12&category="
+    },
+    {
+      "name": "2026",
+      "start": "2026-12-18",
+      "end": "2026-12-19",
+      "location": "장소 미정",
+      "category": "cv",
+      "type": "domestic",
+      "source": "대한심장학회",
+      "url": "https://m.circulation.or.kr/bbs/index.php?code=meeting&mode=list&year=2026&month=12&category="
+    }
+  ]
+}
