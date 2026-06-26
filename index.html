@@ -528,7 +528,7 @@ function openModal(ev) {
     ? `${sd.getFullYear()}년 ${sd.getMonth()+1}월 ${sd.getDate()}일`
     : `${sd.getFullYear()}년 ${sd.getMonth()+1}월 ${sd.getDate()}일 ~ ${ed.getMonth()+1}월 ${ed.getDate()}일`;
   document.getElementById('modal-date').querySelector('span:last-child').textContent = dateStr;
-  document.getElementById('modal-location').querySelector('span:last-child').textContent = ev.location || '장소 미정';
+  document.getElementById('modal-location').querySelector('span:last-child').textContent = ev.location || '';
   document.getElementById('modal-source').querySelector('span:last-child').textContent = ev.source || '';
   document.getElementById('modal-link-wrap').innerHTML = ev.url
     ? `<a class="modal-link" href="${ev.url}" target="_blank">공식 사이트 방문 →</a>` : '';
