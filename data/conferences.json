@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-06-26",
+  "total": 15,
+  "conferences": [
+    { "name":"대한고혈압학회 제64회 춘계학술대회", "start":"2026-05-22", "end":"2026-05-23", "location":"광주 김대중컨벤션센터", "category":"cv", "type":"domestic", "source":"대한고혈압학회", "url":"https://www.koreanhypertension.org" },
+    { "name":"ESH 2026 (유럽고혈압학회)", "start":"2026-05-28", "end":"2026-05-31", "location":"유럽", "category":"cv", "type":"intl", "source":"대한고혈압학회", "url":"https://eshannualmeetings.eu" },
+    { "name":"ISH 2026 (국제고혈압학회)", "start":"2026-10-22", "end":"2026-10-25", "location":"두바이", "category":"cv", "type":"intl", "source":"대한고혈압학회", "url":"https://ishecs26.org" },
+    { "name":"JSH 2026 (일본고혈압학회)", "start":"2026-10-10", "end":"2026-10-12", "location":"일본", "category":"cv", "type":"intl", "source":"대한고혈압학회", "url":"https://www.congre.co.jp/48jsh2026" },
+    { "name":"대한고혈압학회 제65회 추계학술대회", "start":"2026-11-05", "end":"2026-11-07", "location":"서울", "category":"cv", "type":"domestic", "source":"대한고혈압학회", "url":"https://www.koreanhypertension.org" },
+    { "name":"대한통증학회 춘계학술대회", "start":"2026-04-25", "end":"2026-04-26", "location":"서울", "category":"pain", "type":"domestic", "source":"대한통증학회", "url":"https://www.painfree.or.kr" },
+    { "name":"대한마취통증의학회 학술대회", "start":"2026-10-08", "end":"2026-10-10", "location":"서울", "category":"pain", "type":"domestic", "source":"대한마취통증의학회", "url":"https://www.anesthesia.or.kr" },
+    { "name":"대한당뇨병학회 제39차 춘계학술대회", "start":"2026-04-30", "end":"2026-05-02", "location":"광주 김대중컨벤션센터", "category":"endo", "type":"domestic", "source":"대한당뇨병학회", "url":"https://www.diabetes.or.kr" },
+    { "name":"SICEM 2026 (대한내분비학회)", "start":"2026-04-09", "end":"2026-04-11", "location":"그랜드 하얏트 인천", "category":"endo", "type":"domestic", "source":"대한내분비학회", "url":"https://endocrinology.or.kr" },
+    { "name":"대한신경과학회 춘계학술대회", "start":"2026-05-14", "end":"2026-05-16", "location":"서울", "category":"pain", "type":"domestic", "source":"대한신경과학회", "url":"https://renew.neuro.or.kr" },
+    { "name":"대한신장학회 KSN 2026", "start":"2026-06-18", "end":"2026-06-21", "location":"서울 코엑스", "category":"endo", "type":"domestic", "source":"대한신장학회", "url":"https://www.ksn.or.kr" },
+    { "name":"대한재활의학회 춘계학술대회", "start":"2026-04-17", "end":"2026-04-18", "location":"서울", "category":"pain", "type":"domestic", "source":"대한재활의학회", "url":"https://www.karm.or.kr" },
+    { "name":"대한정형외과학회 춘계학술대회", "start":"2026-05-28", "end":"2026-05-30", "location":"서울", "category":"pain", "type":"domestic", "source":"대한정형외과학회", "url":"https://www.koa.or.kr" },
+    { "name":"대한디지털임상의학회 학술대회", "start":"2026-06-20", "end":"2026-06-21", "location":"서울", "category":"cv", "type":"domestic", "source":"대한디지털임상의학회", "url":"https://www.kdcm.or.kr" },
+    { "name":"대한심장학회 추계학술대회 KSC2026", "start":"2026-10-16", "end":"2026-10-18", "location":"서울", "category":"cv", "type":"domestic", "source":"대한심장학회", "url":"https://circulation.or.kr" }
+  ]
+}
